@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/andyzack.github.io/static/css/main.d1b05096.chunk.css",
+    "main.js": "/andyzack.github.io/static/js/main.3a040564.chunk.js",
+    "main.js.map": "/andyzack.github.io/static/js/main.3a040564.chunk.js.map",
+    "runtime-main.js": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js",
+    "runtime-main.js.map": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js.map",
+    "static/js/2.39513104.chunk.js": "/andyzack.github.io/static/js/2.39513104.chunk.js",
+    "static/js/2.39513104.chunk.js.map": "/andyzack.github.io/static/js/2.39513104.chunk.js.map",
+    "index.html": "/andyzack.github.io/index.html",
+    "precache-manifest.95935acdda7bf7403d22ca3ff9ea125f.js": "/andyzack.github.io/precache-manifest.95935acdda7bf7403d22ca3ff9ea125f.js",
+    "service-worker.js": "/andyzack.github.io/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/andyzack.github.io/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.39513104.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.39513104.chunk.js.LICENSE",
+    "static/media/logo.svg": "/andyzack.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.846d2f6b.js",
+    "static/js/2.39513104.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.3a040564.chunk.js"
+  ]
+}

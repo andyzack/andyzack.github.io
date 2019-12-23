@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/andyzack.github.io/static/css/main.e64b00e9.chunk.css",
-    "main.js": "/andyzack.github.io/static/js/main.96b19804.chunk.js",
-    "main.js.map": "/andyzack.github.io/static/js/main.96b19804.chunk.js.map",
+    "main.css": "/andyzack.github.io/static/css/main.eef0119f.chunk.css",
+    "main.js": "/andyzack.github.io/static/js/main.17d1d22a.chunk.js",
+    "main.js.map": "/andyzack.github.io/static/js/main.17d1d22a.chunk.js.map",
     "runtime-main.js": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js",
     "runtime-main.js.map": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js.map",
-    "static/js/2.b14bef42.chunk.js": "/andyzack.github.io/static/js/2.b14bef42.chunk.js",
-    "static/js/2.b14bef42.chunk.js.map": "/andyzack.github.io/static/js/2.b14bef42.chunk.js.map",
+    "static/js/2.b689a123.chunk.js": "/andyzack.github.io/static/js/2.b689a123.chunk.js",
+    "static/js/2.b689a123.chunk.js.map": "/andyzack.github.io/static/js/2.b689a123.chunk.js.map",
     "index.html": "/andyzack.github.io/index.html",
-    "precache-manifest.45322cb72eda2c20ca8dee7640e7817d.js": "/andyzack.github.io/precache-manifest.45322cb72eda2c20ca8dee7640e7817d.js",
+    "precache-manifest.250cd453424bd1fb7ea428c5e11b9c7f.js": "/andyzack.github.io/precache-manifest.250cd453424bd1fb7ea428c5e11b9c7f.js",
     "service-worker.js": "/andyzack.github.io/service-worker.js",
-    "static/css/main.e64b00e9.chunk.css.map": "/andyzack.github.io/static/css/main.e64b00e9.chunk.css.map",
-    "static/js/2.b14bef42.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.b14bef42.chunk.js.LICENSE",
+    "static/css/main.eef0119f.chunk.css.map": "/andyzack.github.io/static/css/main.eef0119f.chunk.css.map",
+    "static/js/2.b689a123.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.b689a123.chunk.js.LICENSE",
     "static/media/andrew-az.png": "/andyzack.github.io/static/media/andrew-az.254c70c2.png",
+    "static/media/icon-facebook.svg": "/andyzack.github.io/static/media/icon-facebook.0eda72ba.svg",
+    "static/media/icon-linkedin.svg": "/andyzack.github.io/static/media/icon-linkedin.9c9759b9.svg",
+    "static/media/logo.png": "/andyzack.github.io/static/media/logo.50e1fe79.png",
     "static/media/profile-pic-original.jpg": "/andyzack.github.io/static/media/profile-pic-original.5de8399e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.846d2f6b.js",
-    "static/js/2.b14bef42.chunk.js",
-    "static/css/main.e64b00e9.chunk.css",
-    "static/js/main.96b19804.chunk.js"
+    "static/js/2.b689a123.chunk.js",
+    "static/css/main.eef0119f.chunk.css",
+    "static/js/main.17d1d22a.chunk.js"
   ]
 }

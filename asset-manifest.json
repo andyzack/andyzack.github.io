@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/andyzack.github.io/static/css/main.f1f25f59.chunk.css",
-    "main.js": "/andyzack.github.io/static/js/main.f50be2d7.chunk.js",
-    "main.js.map": "/andyzack.github.io/static/js/main.f50be2d7.chunk.js.map",
+    "main.css": "/andyzack.github.io/static/css/main.e64b00e9.chunk.css",
+    "main.js": "/andyzack.github.io/static/js/main.96b19804.chunk.js",
+    "main.js.map": "/andyzack.github.io/static/js/main.96b19804.chunk.js.map",
     "runtime-main.js": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js",
     "runtime-main.js.map": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js.map",
-    "static/js/2.39513104.chunk.js": "/andyzack.github.io/static/js/2.39513104.chunk.js",
-    "static/js/2.39513104.chunk.js.map": "/andyzack.github.io/static/js/2.39513104.chunk.js.map",
+    "static/js/2.b14bef42.chunk.js": "/andyzack.github.io/static/js/2.b14bef42.chunk.js",
+    "static/js/2.b14bef42.chunk.js.map": "/andyzack.github.io/static/js/2.b14bef42.chunk.js.map",
     "index.html": "/andyzack.github.io/index.html",
-    "precache-manifest.d321b006cca8406b3463465c2fb903b1.js": "/andyzack.github.io/precache-manifest.d321b006cca8406b3463465c2fb903b1.js",
+    "precache-manifest.45322cb72eda2c20ca8dee7640e7817d.js": "/andyzack.github.io/precache-manifest.45322cb72eda2c20ca8dee7640e7817d.js",
     "service-worker.js": "/andyzack.github.io/service-worker.js",
-    "static/css/main.f1f25f59.chunk.css.map": "/andyzack.github.io/static/css/main.f1f25f59.chunk.css.map",
-    "static/js/2.39513104.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.39513104.chunk.js.LICENSE",
-    "static/media/logo.svg": "/andyzack.github.io/static/media/logo.5d5d9eef.svg"
+    "static/css/main.e64b00e9.chunk.css.map": "/andyzack.github.io/static/css/main.e64b00e9.chunk.css.map",
+    "static/js/2.b14bef42.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.b14bef42.chunk.js.LICENSE",
+    "static/media/andrew-az.png": "/andyzack.github.io/static/media/andrew-az.254c70c2.png",
+    "static/media/profile-pic-original.jpg": "/andyzack.github.io/static/media/profile-pic-original.5de8399e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.846d2f6b.js",
-    "static/js/2.39513104.chunk.js",
-    "static/css/main.f1f25f59.chunk.css",
-    "static/js/main.f50be2d7.chunk.js"
+    "static/js/2.b14bef42.chunk.js",
+    "static/css/main.e64b00e9.chunk.css",
+    "static/js/main.96b19804.chunk.js"
   ]
 }

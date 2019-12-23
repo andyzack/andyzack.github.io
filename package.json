@@ -10,7 +10,8 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
-    "react-styleguidist": "^10.3.2"
+    "react-styleguidist": "^10.3.2",
+    "source-map-explorer": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,7 +23,8 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "eslintConfig": {
     "extends": "react-app"

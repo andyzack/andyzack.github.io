@@ -397,7 +397,7 @@ function Gallery() {
   return (
     <div className="App">
       <div className="aaz-container justify-top">
-        <div className="w-100 dt no-repeat bg-center cover center w-100 aaz-banner-about">
+        <div className="w-100 dt no-repeat bg-center cover center w-100 aaz-banner-gallery">
           <div className="mw8 center">
             <div className="pa2 pt0 tl">
 {/* START POSTER */}

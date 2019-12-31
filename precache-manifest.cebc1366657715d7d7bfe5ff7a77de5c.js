@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6050b4159943fea6e4bfd81ad15601f5",
+    "revision": "ea488f06fb2b3767aa41b243b7f57b6f",
     "url": "/andyzack.github.io/index.html"
   },
   {
-    "revision": "72bded2e27855bc5576f",
-    "url": "/andyzack.github.io/static/css/main.eef0119f.chunk.css"
+    "revision": "b1aba652a181015638eb",
+    "url": "/andyzack.github.io/static/css/main.bab9571d.chunk.css"
   },
   {
-    "revision": "891ab5d934e68c5f5dc9",
-    "url": "/andyzack.github.io/static/js/2.3725ab9e.chunk.js"
+    "revision": "4e9c9597121432786d5e",
+    "url": "/andyzack.github.io/static/js/2.1cf8b926.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/andyzack.github.io/static/js/2.3725ab9e.chunk.js.LICENSE"
+    "url": "/andyzack.github.io/static/js/2.1cf8b926.chunk.js.LICENSE"
   },
   {
-    "revision": "72bded2e27855bc5576f",
-    "url": "/andyzack.github.io/static/js/main.938d20e0.chunk.js"
+    "revision": "b1aba652a181015638eb",
+    "url": "/andyzack.github.io/static/js/main.c89bde3b.chunk.js"
   },
   {
     "revision": "f21eca404fba0c56735e",
     "url": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js"
-  },
-  {
-    "revision": "111f061faf506f038b4305e42f2679de",
-    "url": "/andyzack.github.io/static/media/000-document-1.111f061f.svg"
   },
   {
     "revision": "af6134f2903eebdc17e57cd1193d040d",
@@ -52,16 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andyzack.github.io/static/media/010-linkedin.9e36c8fd.svg"
   },
   {
-    "revision": "1db9e9c352df34dd25e86db386f3d62b",
-    "url": "/andyzack.github.io/static/media/013-twitter-1.1db9e9c3.svg"
+    "revision": "978f0d6d9bd05ec7c636e81cae285833",
+    "url": "/andyzack.github.io/static/media/about-product-reveleus.978f0d6d.jpg"
+  },
+  {
+    "revision": "95300f96edd3096919d3f67f09acd51f",
+    "url": "/andyzack.github.io/static/media/about-project-management.95300f96.jpg"
   },
   {
     "revision": "254c70c24970cab07b765f8915f1a434",
     "url": "/andyzack.github.io/static/media/andrew-az.254c70c2.png"
   },
   {
-    "revision": "50e1fe79031770fb4fa734012b201f15",
-    "url": "/andyzack.github.io/static/media/logo.50e1fe79.png"
+    "revision": "5aeb33a7a576c82a37c45f3af49010f9",
+    "url": "/andyzack.github.io/static/media/logo.5aeb33a7.png"
   },
   {
     "revision": "5de8399ef765d51ad50c2c8e17a44c0a",

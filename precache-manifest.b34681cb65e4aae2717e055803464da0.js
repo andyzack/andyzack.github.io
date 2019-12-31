@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea488f06fb2b3767aa41b243b7f57b6f",
+    "revision": "8bd5c3e39fbcfe7dfe871464548e951c",
     "url": "/andyzack.github.io/index.html"
   },
   {
-    "revision": "b1aba652a181015638eb",
-    "url": "/andyzack.github.io/static/css/main.bab9571d.chunk.css"
+    "revision": "db43b9f3da9bb3ed2daf",
+    "url": "/andyzack.github.io/static/css/2.1fd2b905.chunk.css"
   },
   {
-    "revision": "4e9c9597121432786d5e",
-    "url": "/andyzack.github.io/static/js/2.1cf8b926.chunk.js"
+    "revision": "c0c6056afc8964216a56",
+    "url": "/andyzack.github.io/static/css/main.a1f1691f.chunk.css"
+  },
+  {
+    "revision": "db43b9f3da9bb3ed2daf",
+    "url": "/andyzack.github.io/static/js/2.48e8dacf.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/andyzack.github.io/static/js/2.1cf8b926.chunk.js.LICENSE"
+    "url": "/andyzack.github.io/static/js/2.48e8dacf.chunk.js.LICENSE"
   },
   {
-    "revision": "b1aba652a181015638eb",
-    "url": "/andyzack.github.io/static/js/main.c89bde3b.chunk.js"
+    "revision": "c0c6056afc8964216a56",
+    "url": "/andyzack.github.io/static/js/main.272bd7c4.chunk.js"
   },
   {
     "revision": "f21eca404fba0c56735e",
@@ -48,16 +52,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andyzack.github.io/static/media/010-linkedin.9e36c8fd.svg"
   },
   {
-    "revision": "978f0d6d9bd05ec7c636e81cae285833",
-    "url": "/andyzack.github.io/static/media/about-product-reveleus.978f0d6d.jpg"
+    "revision": "515bc0b66a7a7ef8d135b8884b5b4b6d",
+    "url": "/andyzack.github.io/static/media/about-adventure.515bc0b6.jpg"
+  },
+  {
+    "revision": "db03cb535337cc13d6cff388efb86ab3",
+    "url": "/andyzack.github.io/static/media/about-cartrawler.db03cb53.jpg"
+  },
+  {
+    "revision": "c762176fed03b99270a031df16cacef1",
+    "url": "/andyzack.github.io/static/media/about-enventure.c762176f.jpg"
   },
   {
     "revision": "95300f96edd3096919d3f67f09acd51f",
-    "url": "/andyzack.github.io/static/media/about-project-management.95300f96.jpg"
+    "url": "/andyzack.github.io/static/media/about-me.95300f96.jpg"
+  },
+  {
+    "revision": "7ddfbc3a91539f418138321541fc830a",
+    "url": "/andyzack.github.io/static/media/about-oracle.7ddfbc3a.jpg"
   },
   {
     "revision": "254c70c24970cab07b765f8915f1a434",
     "url": "/andyzack.github.io/static/media/andrew-az.254c70c2.png"
+  },
+  {
+    "revision": "863bb5f4bfd8cc2d29ccebe730eda70e",
+    "url": "/andyzack.github.io/static/media/gallery-main.863bb5f4.jpg"
   },
   {
     "revision": "5aeb33a7a576c82a37c45f3af49010f9",

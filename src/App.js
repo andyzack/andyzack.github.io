@@ -173,13 +173,16 @@ function Home(home) {
           isPlaying={true}
           infinite={true}
           lockOnWindowScroll={true}
-          interval={10000}
+          interval={20000}
         >
           <Slider className="f4 white-70 tj aaz-blockquote overflow-auto">
             <Slide index={0}>
             Andrew is a passionate and dedicated individual and could work on any platform or technology. He's a quick learner and a hard worker. I've seen him grow from a Web designer to web developer - expanding his ability and knowledge and being part of an awesome team. He was part of Cartrawler and its journey to become the world’s leading B2B travel tech company, and a strong asset to the company. Andrew continues his association by providing his services and support to Cartrawler even after he moved to Australia. I wish him all the success and am proud to have known him professionally and personally all these years. He's a really great team player and all round great guy and I'm happy to recommend him.<br /><br />
             <div className="fw6 tc">Bobby Healy
-            <a href="https://www.linkedin.com/in/bhealy/" className="dib pa1">
+            <a href="https://www.linkedin.com/in/bhealy/" className="dib pa1" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={iconLinkedin}
                 className="aaz-icon-linkedin w1 bg-white-70 br-100 b--white ba"
@@ -191,7 +194,10 @@ function Home(home) {
             <Slide index={1}>
             I have worked with Andrew in Oracle. We were team mates working on product development of Risk and Compliance products for the Financial Services Industry. Andrew was the front-end developer in the project. I must say that he was a really creative and a very knowledgeable developer. He always made sure the user interfaces had impressive aesthetics, were intuitive and high performing. He was also a very good team player and would co-operate very well with the rest of the developers in the team. Andrew would always be up to date with new UI technologies and would recommend best practices and UI widgets suitable for the product UIs. Andrew also has demonstrated a great level of commitment to the project and the organization often working long hours and ensuring product deliverables and customer commitments are successfully met.<br /><br />
             <div className="fw6 tc">Lovell Mathews
-            <a href="https://www.linkedin.com/in/lovellmathews/" className="dib pa1">
+            <a href="https://www.linkedin.com/in/lovellmathews/" className="dib pa1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={iconLinkedin}
                 className="aaz-icon-linkedin w1 bg-white-70 br-100 b--white ba"
@@ -207,7 +213,10 @@ function Home(home) {
 
             He is an approachable and friendly person. It's excellent to have him around. He brings unique energy wherever he is. <br /><br />
             <div className="fw6 tc">Bruno De Mauro
-            <a href="https://www.linkedin.com/in/bdimauroh/" className="dib pa1">
+            <a href="https://www.linkedin.com/in/bdimauroh/" className="dib pa1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={iconLinkedin}
                 className="aaz-icon-linkedin w1 bg-white-70 br-100 b--white ba"
@@ -219,7 +228,10 @@ function Home(home) {
             <Slide index={3}>
             It's an absolute pleasure to recommend Andrew. Andrew and I worked together in CarTrawler from the early 'startup' years and through the highly successful years as the company grew to the hundreds of people. Andrew was a key part of the development team on the frontend side, he built and lead many solutions that were key to the success of numerous partner deals. Always a reliable pair of hands with a focus on technical efficiency and mentoring other team members. Andrew cares deeply about high-quality technical solutions and is always bonus to have on a team. <br /><br />
             <div className="fw6 tc">Alan Hicks
-            <a href="https://www.linkedin.com/in/alhicks/" className="dib pa1">
+            <a href="https://www.linkedin.com/in/alhicks/" className="dib pa1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={iconLinkedin}
                 className="aaz-icon-linkedin w1 bg-white-70 br-100 b--white ba"
@@ -231,7 +243,10 @@ function Home(home) {
             <Slide index={4}>
             I thoroughly enjoyed working with Andrew in my time at CarTrawler. He was a fantastic engineer and contributor to the team -- dedicated, great team player, diligent and proactively worked to improve practices.<br /><br />
             <div className="fw6 tc">Deborah Clarke 
-            <a href="https://www.linkedin.com/in/clarkedeborah/" className="dib pa1">
+            <a href="https://www.linkedin.com/in/clarkedeborah/" className="dib pa1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src={iconLinkedin}
                 className="az-icon-linkedin w1 bg-white-70 br-100 b--white ba"
@@ -241,8 +256,8 @@ function Home(home) {
             <span className="i fw2 db">Principal Product Manager, Head of Seller Trust and Loyalty at Amazon</span></div>
             </Slide>
           </Slider>
-          <ButtonBack className="f6 no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
-          <ButtonNext className="f6 no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
+          <ButtonBack className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
+          <ButtonNext className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
         </CarouselProvider>
         </div>
       </div>
@@ -296,7 +311,7 @@ function About() {
               isPlaying={true}
               infinite={true}
               lockOnWindowScroll={true}
-              interval={10000}
+              interval={20000}
             >
               <Slider className="f4 tl">
                 <Slide index={0}>
@@ -306,7 +321,10 @@ function About() {
                   In the last company, Cartrawler, where I served for 13 years, I've played a key part in the integration of car hire booking engine for top airlines, hotels and travel agents.
                   </div>
                   <div className="dtc w-60 v-top">
-                    <a href="https://www.cartrawler.com/" className="dib">
+                    <a href="https://www.cartrawler.com/" className="dib"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <img
                         src={aboutCartrawler}
                         className="aaz-icon-linkedin w-100"
@@ -324,7 +342,10 @@ function About() {
                   I'm a former employee of i-flex solutions limited now Oracle Financial Services Software Limited, I was part of the transition of Reveleus Operational Risk Product from Capco, a global management and technology consultancy company, in 2005 (startup at that time).
                   </div>
                   <div className="dtc w-60 v-top">
-                    <a href="https://en.wikipedia.org/wiki/Oracle_Financial_Services_Software/" className="dib">
+                    <a href="https://en.wikipedia.org/wiki/Oracle_Financial_Services_Software/" className="dib"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <img
                         src={aboutOracle}
                         className="aaz-icon-linkedin w-100"
@@ -342,7 +363,10 @@ function About() {
                   Worked for enventure from the early startup years, although joined as Electronic Engineer, volunteered to build intranet, my first web project. After this my passion for web design and development never stopped :)
                   </div>
                   <div className="dtc w-60 v-top">
-                    <a href="https://www.enventure.com/" className="dib">
+                    <a href="https://www.enventure.com/" className="dib"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <img
                         src={aboutEnventure}
                         className="aaz-icon-linkedin w-100"
@@ -354,8 +378,8 @@ function About() {
                 </article>
                 </Slide>
               </Slider>
-              <ButtonBack className="f6 no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
-              <ButtonNext className="f6 no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
+              <ButtonBack className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
+              <ButtonNext className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
             </CarouselProvider>
           </div>
         </div>
@@ -400,35 +424,35 @@ function Gallery() {
         <div className="w-100 dt no-repeat bg-center cover center w-100 aaz-banner-gallery">
           <div className="mw8 center">
             <div className="pa2 pt0 tl">
-{/* START POSTER */}
-<main className="cf pa2">
-  <div className="fl w-100 w-50-ns ph2">
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters030211_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/pink-and-noseworthy-22.12.10-cargo_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw090911_960.jpg" alt="cartrawler" /></a>
-  </div>
-  <div className="fl w-50 w-25-ns ph2">
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-031209_960-2.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw18-240112-cc_960.jpg" alt="cartrawler" /> </a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-residency-cargo_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/orchid-2-mnkr_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/O270711_960-2.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-020510_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-130610_960.jpg" alt="cartrawler" /></a>
-  </div>
-  <div className="fl w-50 w-25-ns ph2">
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zach-hurd-101218_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zh170311.4.cargo_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hwspringtour-cargo_960-1.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/cc-shanee_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/ZachHurd-190111s_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw170211pie-cargo_960.jpg" alt="cartrawler" /></a>
-    <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-191110_960.jpg" alt="cartrawler" /></a>
-  </div>
-</main>
-{/* END POSTER */}
+              {/* START POSTER */}
+              <main className="cf pa2">
+                <div className="fl w-100 w-50-ns ph2">
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters030211_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/pink-and-noseworthy-22.12.10-cargo_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw090911_960.jpg" alt="cartrawler" /></a>
+                </div>
+                <div className="fl w-50 w-25-ns ph2">
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-031209_960-2.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw18-240112-cc_960.jpg" alt="cartrawler" /> </a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-residency-cargo_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/orchid-2-mnkr_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/O270711_960-2.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-020510_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-130610_960.jpg" alt="cartrawler" /></a>
+                </div>
+                <div className="fl w-50 w-25-ns ph2">
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zach-hurd-101218_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zh170311.4.cargo_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hwspringtour-cargo_960-1.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/cc-shanee_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/ZachHurd-190111s_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw170211pie-cargo_960.jpg" alt="cartrawler" /></a>
+                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-191110_960.jpg" alt="cartrawler" /></a>
+                </div>
+              </main>
+              {/* END POSTER */}
             </div>
           </div>
         </div>      

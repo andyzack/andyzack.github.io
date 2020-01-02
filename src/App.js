@@ -8,8 +8,9 @@ import {
 import photograph from './assets/images/profile-pic-original.jpg';
 import autograph from './assets/images/andrew-az.png';
 import logo from './assets/images/logo.png';
+import iconHome from './assets/images/000-home.svg';
 import iconAbout from './assets/images/000-user-3.svg';
-import iconGallery from './assets/images/000-picture-1.svg';
+import iconGallery from './assets/images/000-internet.svg';
 import iconContact from './assets/images/000-email.svg';
 import iconLinkedin from './assets/images/010-linkedin.svg';
 import iconFacebook from './assets/images/001-facebook.svg';
@@ -18,6 +19,27 @@ import iconWhatsapp from './assets/images/003-whatsapp.svg';
 import aboutCartrawler from './assets/images/about-cartrawler.jpg';
 import aboutOracle from './assets/images/about-oracle.jpg';
 import aboutEnventure from './assets/images/about-enventure.jpg';
+
+// eslint-disable-next-line no-unused-vars
+import snapshotXmain from './assets/images/snapshotXmain.jpg';
+import snapshotXairasia from './assets/images/snapshotXairasia.png';
+import snapshotXflybondi from './assets/images/snapshotXflybondi.png';
+import snapshotXjetstar from './assets/images/snapshotXjetstar.png';
+import snapshotXswiss from './assets/images/snapshotXswiss.png';
+import snapshotXwestjet from './assets/images/snapshotXwestjet.png';
+import snapshotXaurigny from './assets/images/snapshotXaurigny.png';
+import snapshotXaerlingus from './assets/images/snapshotXaerlingus.png';
+import snapshotXatlasgbl from './assets/images/snapshotXatlasgbl.png';
+import snapshotXemirates from './assets/images/snapshotXemirates.png';
+import snapshotXernest from './assets/images/snapshotXernest-airlines.png';
+import snapshotXnorwegian from './assets/images/snapshotXnorwegian.png';
+import snapshotXthaismile from './assets/images/snapshotXthaismile.png';
+import snapshotXtix from './assets/images/snapshotXtix.png';
+import snapshotXvirginaustralia from './assets/images/snapshotXvirginaustralia.png';
+
+import snapshotWairasia from './assets/images/snapshotWairasia.png';
+import snapshotWcondor from './assets/images/snapshotWcondor.png';
+import snapshotWryanair from './assets/images/snapshotWryanair.jpg';
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
@@ -28,7 +50,7 @@ function App() {
     <Router>
       <div className="cover bg-left bg-center-l aaz-banner-main">
         <div className="bg-black-80 pb3 pb4-m pb5-l">
-          <header className="bg-black">
+          <header className="bg-white-10">
             <nav className="dt w-100 mw8 center"> 
               <div className="dtc w2 v-mid pa3">
                 <Link className="dib h2 pa1 grow-large border-box" to="/">
@@ -40,6 +62,13 @@ function App() {
                 </Link>
               </div>
               <div className="dtc v-mid tr pa3">
+                <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow aaz-home" to="/">
+                  <img
+                    src={iconHome}
+                    className="aaz-icon-linkedin w2 bg-black-70 br-100 b--white ba"
+                    alt="Andrew's Linkedin"
+                  />
+                </Link>
                 <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow" to="/About">
                   <img
                     src={iconAbout}
@@ -68,7 +97,7 @@ function App() {
                 </a>
                 <a
                   className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow"
-                  href="mailto:andyzack@gmail.com"
+                  href="mailto:andyzack@gmail.com?subject=andyzack.github.io feedback&body=Your Site looks awesome!"
                   rel="noopener noreferrer"
                 >
                   <img
@@ -125,7 +154,7 @@ function App() {
               </Route>
             </Switch>
 
-            <footer className="fixed w-100 bottom-0 bg-black-60">
+            <footer className="w-100 bg-black-60">
               <div className="mw8 w-100 center dt">
                 <div className="white-50 dtc tc v-mid pa2">
                 © 2019 andrewaz
@@ -173,9 +202,9 @@ function Home(home) {
           isPlaying={true}
           infinite={true}
           lockOnWindowScroll={true}
-          interval={20000}
+          interval={30000}
         >
-          <Slider className="f4 white-70 tj aaz-blockquote overflow-auto">
+          <Slider className="f4 white-70 tj overflow-y-auto aaz-blockquote">
             <Slide index={0}>
             Andrew is a passionate and dedicated individual and could work on any platform or technology. He's a quick learner and a hard worker. I've seen him grow from a Web designer to web developer - expanding his ability and knowledge and being part of an awesome team. He was part of Cartrawler and its journey to become the world’s leading B2B travel tech company, and a strong asset to the company. Andrew continues his association by providing his services and support to Cartrawler even after he moved to Australia. I wish him all the success and am proud to have known him professionally and personally all these years. He's a really great team player and all round great guy and I'm happy to recommend him.<br /><br />
             <div className="fw6 tc">Bobby Healy
@@ -275,8 +304,8 @@ function About() {
               <article data-name="article-full-bleed-background cf">
                 <div className="cf">
                   <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3">
-                    <header className="bb b--black-20 pv4">
-                      <h3 className="f1 fw7 lh-title mt0 mb3 heading-font fw7">about me</h3>
+                    <header className="bb b--black-20 pb4">
+                      <h3 className="f2 fw7 lh-title mt0 mb3 heading-font fw7">about me</h3>
                       <h4 className="f3 fw4 lh-title ma0">I'm a creative front‑end developer based in Melbourne, Australia.</h4>
                     </header>
                     <section className="pv4">
@@ -297,25 +326,26 @@ function About() {
         </div>
 
         {/* START CAROUSEL */}
-        <div className="bg-black-90 pv3 w-100">
+        <div className="bg-white-10 pv3 w-100">
           <div className="w-100 mw8 center">
-            <header className="bb b--black-20 pv4">
-              <h3 className="f1 fw7 lh-title mt0 mb3 heading-font fw7 white">start ups and my contribution</h3>
+          <div className="pa2 pt0 tl">
+            <header className="bb b--black-20 pb4 pt4">
+              <h3 className="f2 fw7 lh-title mt0 mb3 heading-font fw7 white">start ups and my contribution</h3>
               <h4 className="f3 fw4 lh-title ma0 white mb3">I've worked for 'start up' companies in Ireland and India, helped them grow into a world-class leader in their respective domain.</h4>
             </header>
 
-            <CarouselProvider className="center bg-black-30 relative ph5 pv4"
+            <CarouselProvider className="center bg-black-30 relative ph5 pv4 mb3"
               naturalSlideWidth={120}
               naturalSlideHeight={40}
               totalSlides={3}
               isPlaying={true}
               infinite={true}
               lockOnWindowScroll={true}
-              interval={20000}
+              interval={30000}
             >
-              <Slider className="f4 tl">
+              <Slider className="f4 tl overflow-y-auto ba b--white-70">
                 <Slide index={0}>
-                <article className="ba b--white-70">
+                <article>
                 <div className="dt w-100 h-100 bg-white">
                   <div className="dtc w-40 black lh-copy f4 mt0 pa3 v-top">
                   In the last company, Cartrawler, where I served for 13 years, I've played a key part in the integration of car hire booking engine for top airlines, hotels and travel agents.
@@ -336,7 +366,7 @@ function About() {
                 </article>
                 </Slide>
                 <Slide index={1}>
-                <article className="ba b--white-70">
+                <article>
                 <div className="dt w-100 h-100 bg-white">
                   <div className="dtc w-40 black lh-copy f4 mt0 pa3 v-top">
                   I'm a former employee of i-flex solutions limited now Oracle Financial Services Software Limited, I was part of the transition of Reveleus Operational Risk Product from Capco, a global management and technology consultancy company, in 2005 (startup at that time).
@@ -357,7 +387,7 @@ function About() {
                 </article>
                 </Slide>
                 <Slide index={2}>
-                <article className="ba b--white-70">
+                <article>
                 <div className="dt w-100 h-100 bg-white">
                   <div className="dtc w-40 black lh-copy f4 mt0 pa3 v-top">
                   Worked for enventure from the early startup years, although joined as Electronic Engineer, volunteered to build intranet, my first web project. After this my passion for web design and development never stopped :)
@@ -381,6 +411,7 @@ function About() {
               <ButtonBack className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
               <ButtonNext className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
             </CarouselProvider>
+            </div>
           </div>
         </div>
         {/* END CAROUSEL */}
@@ -392,8 +423,8 @@ function About() {
               <article data-name="article-full-bleed-background cf">
                 <div className="cf">
                   <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3">
-                    <header className="bb b--black-20 pv4">
-                      <h3 className="f1 fw7 lh-title mt0 mb3 heading-font fw7">last but not least</h3>
+                    <header className="bb b--black-20 pb4">
+                      <h3 className="f2 fw7 lh-title mt0 mb3 heading-font fw7">last but not least</h3>
                       <h4 className="f3 fw4 lh-title ma0">family time, adventure, fun...</h4>
                     </header>
                     <section className="pv4">
@@ -425,31 +456,155 @@ function Gallery() {
           <div className="mw8 center">
             <div className="pa2 pt0 tl">
               {/* START POSTER */}
-              <main className="cf pa2">
+              <main className="cf pa0">
                 <div className="fl w-100 w-50-ns ph2">
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters030211_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/elevaters.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="no-underline pv2 grow db"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/pink-and-noseworthy-22.12.10-cargo_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw090911_960.jpg" alt="cartrawler" /></a>
+                  <div className="pb2 db no-underline black">
+                    <div className="bg-white pa3 pa4-ns">
+                    <header className="bb b--black-20 pb4">
+                      <h3 className="f2 fw7 lh-title mt0 mb3 heading-font">my work at Cartrawler</h3>
+                      <h4 className="f3 fw4 lh-title ma0">Nov 2006 – Present</h4>
+                    </header>
+                    <section className="pv4">
+                      <p className="lh-copy measure f4 mt0 mb0">
+                      Build, maintain and expand car rental and ground transportation landing pages and widgets
+                      <br /><br />
+                      Liaising with stakeholders to create a full design and get it built
+                      <br /><br />
+                      Technical assistance to clients in Australian market
+                      </p>  
+                    </section>
+                    {/* 
+                    Actively involved in the Jetstar car rental transition. <br />
+                    <a className="no-underline pv2 grow db" 
+                      href="https://www.autorentalnews.com/139187/cartrawler-appointed-as-car-rental-partner-to-jetstar/">
+                      <img className="db w-100" src={snapshotXmain} alt="cartrawler" />
+                    </a>
+                     */}
+                    </div>
+                  </div>
+                  <a className="no-underline pv2 pl2 grow db" 
+                    href="https://www.jetstar.com/au/en/car-hire"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXjetstar} alt="cartrawler" />
+                  </a>
+                  <a className="no-underline pv2 pl2 grow db" 
+                    href="http://cars.airasia.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXairasia} alt="cartrawler" />
+                  </a>
+                  <a className="no-underline pv2 pl2 grow db" 
+                    href="https://www.aurignycarhire.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXaurigny} alt="cartrawler" />
+                  </a>
                 </div>
                 <div className="fl w-50 w-25-ns ph2">
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-031209_960-2.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-080411-cargo_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw18-240112-cc_960.jpg" alt="cartrawler" /> </a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw-residency-cargo_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/orchid-2-mnkr_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/O270711_960-2.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-020510_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-130610_960.jpg" alt="cartrawler" /></a>
+                  <a className="no-underline pv2 grow db" 
+                    href="https://autos.westjet.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXwestjet} alt="cartrawler" />
+                  </a>
+                  <a className="no-underline pv2 grow db" 
+                    href="http://cars.swiss.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXswiss} alt="cartrawler" />
+                  </a>
+                  <a className="no-underline pv2 grow db" 
+                    href="https://autos.flybondi.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXflybondi} alt="cartrawler" />
+                  </a>
+                  <a className="no-underline pv2 grow db"
+                    href="https://www.cartrawler.com/atlasglb/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXatlasgbl} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://www.cartrawler.com/emirates/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXemirates} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://www.cartrawler.com/flyernest"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXernest} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://www.cartrawler.com/norwegian-new/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXnorwegian} alt="cartrawler" />
+                  </a>
                 </div>
                 <div className="fl w-50 w-25-ns ph2">
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zach-hurd-101218_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/zh170311.4.cargo_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hwspringtour-cargo_960-1.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/cc-shanee_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/ZachHurd-190111s_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/hw170211pie-cargo_960.jpg" alt="cartrawler" /></a>
-                  <a href="http://www.cartrawler.com/" className="pv2 grow db no-underline black"><img className="db w-100" src="https://s3-us-west-2.amazonaws.com/prnt/adam-stern-191110_960.jpg" alt="cartrawler" /></a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://cars.cartrawler.com/thaismileair/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXthaismile} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="http://autohuur.tix.be/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXtix} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://cartrawler.virginaustralia.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXvirginaustralia} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://cars.cartrawler.com/airasia/widget?type=html&clientId=575248&lang=en&locCode=ams&curr=EUR&residencyId=IE&pkDateTime=202008291000&rtDateTime=202009071000"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotWairasia} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://cars.cartrawler.com/condor/widget?type=html&clientId=813384&lang=en&num=4&locCode=ams&curr=EUR&residencyId=IE&pkDateTime=202008291000&rtDateTime=202009071000"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotWcondor} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://www.cartrawler.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotWryanair} alt="cartrawler" />
+                  </a>
+                  <a className="pv2 grow db no-underline black"
+                    href="https://www.cartrawler.com/aerlingus/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img className="db w-100" src={snapshotXaerlingus} alt="cartrawler" /> 
+                  </a>
                 </div>
               </main>
               {/* END POSTER */}

@@ -41,7 +41,6 @@ body {
 }
 
 .aaz-container {
-	background-color: #ffffff;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -50,8 +49,16 @@ body {
 	color: #282c34;
 }
 
+.aaz-home {
+	img {
+    width: 22px;
+    height: 22px;
+    padding: 5px;
+	}
+}
+
 .aaz-banner-main {
-	background-image: url(http://mrmrs.github.io/photos/u/011.jpg);
+	background-image: url(../images/bg-1.jpg);
 }
 
 .aaz-banner-about {
@@ -75,11 +82,28 @@ body {
 }
 
 .aaz-banner-gallery {
-	background-image: url(../images/gallery-main.jpg);
+	background-image: linear-gradient(-225deg, #285374 0%, #1d5a74 29%, #126b6d 67%, #117268 100%),
+	repeating-linear-gradient(-115deg, transparent, transparent 20px, rgba(255,255,255,0.1) 20px, rgba(255,255,255,0.1) 40px),
+	repeating-linear-gradient(115deg, transparent, transparent 20px, rgba(255,255,255,0.1) 20px, rgba(255,255,255,0.1) 40px);
 }
 
 .aaz-link {
 	color: #61dafb;
+}
+
+a {
+	&.active {
+		img {
+			border-color: #61dafb;
+			fill: #61dafb;
+		}		
+	}
+	&:hover {
+		img {
+			border-color: #61dafb;
+			fill: #61dafb;
+		}
+	}
 }
 
 /* @keyframes aaz-logo-spin {

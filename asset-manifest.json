@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/andyzack.github.io/static/css/main.31e87518.chunk.css",
-    "main.js": "/andyzack.github.io/static/js/main.7502cf49.chunk.js",
-    "main.js.map": "/andyzack.github.io/static/js/main.7502cf49.chunk.js.map",
+    "main.js": "/andyzack.github.io/static/js/main.73c3bbd9.chunk.js",
+    "main.js.map": "/andyzack.github.io/static/js/main.73c3bbd9.chunk.js.map",
     "runtime-main.js": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js",
     "runtime-main.js.map": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js.map",
     "static/css/2.1fd2b905.chunk.css": "/andyzack.github.io/static/css/2.1fd2b905.chunk.css",
-    "static/js/2.8925b33f.chunk.js": "/andyzack.github.io/static/js/2.8925b33f.chunk.js",
-    "static/js/2.8925b33f.chunk.js.map": "/andyzack.github.io/static/js/2.8925b33f.chunk.js.map",
+    "static/js/2.e738fec7.chunk.js": "/andyzack.github.io/static/js/2.e738fec7.chunk.js",
+    "static/js/2.e738fec7.chunk.js.map": "/andyzack.github.io/static/js/2.e738fec7.chunk.js.map",
     "index.html": "/andyzack.github.io/index.html",
-    "precache-manifest.3fe40b266b03af01c6a2687f779e8c62.js": "/andyzack.github.io/precache-manifest.3fe40b266b03af01c6a2687f779e8c62.js",
+    "precache-manifest.08145c96659781c090d1fba47b2f7c61.js": "/andyzack.github.io/precache-manifest.08145c96659781c090d1fba47b2f7c61.js",
     "service-worker.js": "/andyzack.github.io/service-worker.js",
     "static/css/2.1fd2b905.chunk.css.map": "/andyzack.github.io/static/css/2.1fd2b905.chunk.css.map",
     "static/css/main.31e87518.chunk.css.map": "/andyzack.github.io/static/css/main.31e87518.chunk.css.map",
-    "static/js/2.8925b33f.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.8925b33f.chunk.js.LICENSE",
+    "static/js/2.e738fec7.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.e738fec7.chunk.js.LICENSE",
+    "static/media/000-document-1.svg": "/andyzack.github.io/static/media/000-document-1.111f061f.svg",
     "static/media/000-email.svg": "/andyzack.github.io/static/media/000-email.af6134f2.svg",
     "static/media/000-home.svg": "/andyzack.github.io/static/media/000-home.fffa3e4d.svg",
     "static/media/000-internet.svg": "/andyzack.github.io/static/media/000-internet.e518c16b.svg",
@@ -23,6 +24,7 @@
     "static/media/010-linkedin.svg": "/andyzack.github.io/static/media/010-linkedin.9e36c8fd.svg",
     "static/media/App.scss": "/andyzack.github.io/static/media/bg-1.5cf0bf9a.jpg",
     "static/media/andrew-az.png": "/andyzack.github.io/static/media/andrew-az.5189503b.png",
+    "static/media/andrew-new.pdf": "/andyzack.github.io/static/media/andrew-new.7d328e8d.pdf",
     "static/media/profile-pic-original.jpg": "/andyzack.github.io/static/media/profile-pic-original.b45d4379.jpg",
     "static/media/snapshotWairasia.png": "/andyzack.github.io/static/media/snapshotWairasia.53625ba0.png",
     "static/media/snapshotWcondor.png": "/andyzack.github.io/static/media/snapshotWcondor.6d6c82e4.png",
@@ -46,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.846d2f6b.js",
     "static/css/2.1fd2b905.chunk.css",
-    "static/js/2.8925b33f.chunk.js",
+    "static/js/2.e738fec7.chunk.js",
     "static/css/main.31e87518.chunk.css",
-    "static/js/main.7502cf49.chunk.js"
+    "static/js/main.73c3bbd9.chunk.js"
   ]
 }

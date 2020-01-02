@@ -11,6 +11,7 @@ import logo from './assets/images/logo.png';
 import iconHome from './assets/images/000-home.svg';
 import iconAbout from './assets/images/000-user-3.svg';
 import iconGallery from './assets/images/000-internet.svg';
+import iconResume from './assets/images/000-document-1.svg';
 import iconContact from './assets/images/000-email.svg';
 import iconLinkedin from './assets/images/010-linkedin.svg';
 import iconFacebook from './assets/images/001-facebook.svg';
@@ -43,6 +44,11 @@ import snapshotWryanair from './assets/images/snapshotWryanair.jpg';
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+
+// eslint-disable-next-line no-unused-vars
+import { Page, Text, View, Document, StyleSheet, PDFViewer } from '@react-pdf/renderer';
+import documentResume from './assets/docs/andrew-new.pdf';
+
 import './assets/sass/App.scss';
 
 function App() {
@@ -83,6 +89,14 @@ function App() {
                     alt="Andrew's Linkedin"
                   />
                 </Link>
+                <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow" to="/Resume">
+                  <img
+                    src={iconResume}
+                    className="aaz-icon-linkedin w2 bg-white-70 br-100 b--white ba"
+                    alt="Andrew's Resume"
+                  />
+                </Link>
+                
                 <a
                   className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow"
                   href="https://www.linkedin.com/in/andrew-zacharias/"
@@ -461,7 +475,7 @@ function Gallery() {
                   <div className="pb2 db no-underline black">
                     <div className="bg-white pa3 pa4-ns">
                     <header className="bb b--black-20 pb4">
-                      <h3 className="f2 fw7 lh-title mt0 mb3 heading-font">my work at Cartrawler</h3>
+                      <h3 className="f2 fw7 lh-title mt0 mb3 heading-font">my work @ Cartrawler</h3>
                       <h4 className="f3 fw4 lh-title ma0">Nov 2006 – Present</h4>
                     </header>
                     <section className="pv4">
@@ -616,12 +630,64 @@ function Gallery() {
   );
 }
 
+// Create styles
+const styles = StyleSheet.create({
+  page: {
+    flexDirection: 'row',
+    backgroundColor: '#E4E4E4'
+  },
+  section: {
+    margin: 10,
+    padding: 10,
+    flexGrow: 1
+  }
+});
+
+// Create Document Component
+// eslint-disable-next-line no-unused-vars
+const MyDocument = () => (
+  <Document>
+    <Page size="A4" style={styles.page}>
+      <View style={styles.section}>
+        <Text>Section #1</Text>
+      </View>
+      <View style={styles.section}>
+        <Text>Section #2</Text>
+      </View>
+    </Page>
+  </Document>
+);
+
 function Resume() {
   return (
     <div className="App">
-      <div className="aaz-container">
-        <h2>Resume</h2>
+      <div className="aaz-container justify-top">
+        <div className="w-100 dt no-repeat bg-center cover center w-100">
+          <div className="mw8 center">
+            <div className="pa2 pt0 tl">
+              {/* START POSTER */}
+              <div className="w-100 ph2">
+                <iframe
+                  title="Andrew's Resume"
+                  src={documentResume}
+                  height="800"
+                  allowtransparency="true"
+                  allowfullscreen="true"
+                  className="w-100 h-5 bg-transparent bw0"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      {/* 
+      <PDFViewer>
+        <MyDocument />
+      </PDFViewer>
+      */}
+
     </div>
   );
 }

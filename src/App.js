@@ -323,7 +323,7 @@ function Home(home) {
         <p className="f3 white pt1 pb4 ma0">A passionate front-end web developer</p>
         
         <div className="w-100 mw8 center">
-        <CarouselProvider className="center bg-black-30 relative ph5 pv4"
+        <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph4 pv2"
           naturalSlideWidth={120}
           naturalSlideHeight={40}
           totalSlides={5}
@@ -413,8 +413,8 @@ function Home(home) {
             <span className="i fw2 db">Principal Product Manager, Head of Seller Trust and Loyalty at Amazon</span></div>
             </Slide>
           </Slider>
-          <ButtonBack className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
-          <ButtonNext className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
+          <ButtonBack className="f2-ns f4 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3-ns ph1 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
+          <ButtonNext className="f2-ns f4 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3-ns ph1 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
         </CarouselProvider>
         </div>
       </div>

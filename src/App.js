@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -20,6 +20,7 @@ import iconWhatsapp from './assets/images/003-whatsapp.svg';
 import aboutCartrawler from './assets/images/about-cartrawler.jpg';
 import aboutOracle from './assets/images/about-oracle.jpg';
 import aboutEnventure from './assets/images/about-enventure.jpg';
+import logoCartrawler from './assets/images/logo-cartrawler.png';
 
 // eslint-disable-next-line no-unused-vars
 import snapshotXmain from './assets/images/snapshotXmain.jpg';
@@ -42,12 +43,24 @@ import snapshotWairasia from './assets/images/snapshotWairasia.png';
 import snapshotWcondor from './assets/images/snapshotWcondor.png';
 import snapshotWryanair from './assets/images/snapshotWryanair.jpg';
 
+import logoHtml5 from './assets/images/logo-html5.png';
+import logoScsslogo from './assets/images/logo-scsslogo.png';
+import logoA11y from './assets/images/logo-a11y.png';
+import logoJavascriptlang from './assets/images/logo-javascriptlang.png';
+import logoReact from './assets/images/logo-react.png';
+import logoVue from './assets/images/logo-vue.png';
+import logoAngularjs from './assets/images/logo-angularjs.png';
+import logoGitlogo from './assets/images/logo-gitlogo.png';
+import logoVscode from './assets/images/logo-vscode.png';
+
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
 // eslint-disable-next-line no-unused-vars
 import { Page, Text, View, Document, StyleSheet, PDFViewer } from '@react-pdf/renderer';
 import documentResume from './assets/docs/andrew-new.pdf';
+
+import Particles from 'react-particles-js';
 
 import './assets/sass/App.scss';
 
@@ -56,7 +69,7 @@ function App() {
     <Router>
       <div className="cover bg-left bg-center-l aaz-banner-main">
         <div className="bg-black-80 pb3 pb4-m pb5-l">
-          <header className="bg-white-10">
+          <header className="bg-white-10 relative z-999">
             <nav className="dt w-100 mw8 center"> 
               <div className="dtc w2 v-mid pa3">
                 <Link className="dib h2 pa1 grow-large border-box" to="/">
@@ -71,29 +84,29 @@ function App() {
                 <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow aaz-home" to="/">
                   <img
                     src={iconHome}
-                    className="aaz-icon-linkedin w2 bg-black-70 br-100 b--white ba"
-                    alt="Andrew's Linkedin"
+                    className="aaz-icon-home w2 bg-black-70 br-100 b--white ba"
+                    alt="Home"
                   />
                 </Link>
                 <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow" to="/About">
                   <img
                     src={iconAbout}
-                    className="aaz-icon-linkedin w2 bg-white-70 br-100 b--white ba"
-                    alt="Andrew's Linkedin"
+                    className="aaz-icon-about w2 bg-white-70 br-100 b--white ba"
+                    alt="About me"
                   />
                 </Link>
                 <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow" to="/Gallery">
                   <img
                     src={iconGallery}
-                    className="aaz-icon-linkedin w2 bg-white-70 br-100 b--white ba"
-                    alt="Andrew's Linkedin"
+                    className="aaz-icon-gallery w2 bg-white-70 br-100 b--white ba"
+                    alt="Gallery"
                   />
                 </Link>
                 <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow" to="/Resume">
                   <img
                     src={iconResume}
-                    className="aaz-icon-linkedin w2 bg-white-70 br-100 b--white ba"
-                    alt="Andrew's Resume"
+                    className="aaz-icon-resume w2 bg-white-70 br-100 b--white ba"
+                    alt="Resume"
                   />
                 </Link>
                 
@@ -117,7 +130,7 @@ function App() {
                   <img
                     src={iconContact}
                     className="aaz-icon-linkedin w2 bg-white-70 br-100 b--white ba"
-                    alt="Andrew's Linkedin"
+                    alt="Email"
                   />
                 </a>
                 <a
@@ -129,7 +142,7 @@ function App() {
                   <img
                     src={iconFacebook}
                     className="aaz-icon-facebook w2 bg-white-70 br-100 b--white ba"
-                    alt="Andrew's Facebook"
+                    alt="Facebook"
                   />
                 </a>
                 <a
@@ -140,7 +153,7 @@ function App() {
                   <img
                     src={iconWhatsapp}
                     className="aaz-icon-linkedin w2 bg-white-70 br-100 b--white ba"
-                    alt="Andrew's Phone"
+                    alt="Phone"
                   />
                 </a>
               </div>
@@ -170,8 +183,55 @@ function App() {
 
             <footer className="w-100 bg-black-60">
               <div className="mw8 w-100 center dt">
-                <div className="white-50 dtc tc v-mid pa2">
-                © 2019 andrewaz
+                <div className="tc db mt3">
+                  <img
+                    src={logoHtml5}
+                    className="aaz-icon-html5 w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="HTML5"
+                  />
+                  <img
+                    src={logoScsslogo}
+                    className="aaz-icon-sass w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="SASS"
+                  />
+                  <img
+                    src={logoA11y}
+                    className="aaz-icon-a11y w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="A11y"
+                  />
+                  <img
+                    src={logoJavascriptlang}
+                    className="aaz-icon-javascript w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="Javascript"
+                  />
+                  <img
+                    src={logoReact}
+                    className="aaz-icon-react w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="React"
+                  />
+                  <img
+                    src={logoVue}
+                    className="aaz-icon-vue w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="Vue"
+                  />
+                  <img
+                    src={logoAngularjs}
+                    className="aaz-icon-angularjs w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="Angularjs"
+                  />
+                  <img
+                    src={logoGitlogo}
+                    className="aaz-icon-git w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="Git"
+                  />
+                  <img
+                    src={logoVscode}
+                    className="aaz-icon-vscode w2 bg-black-30 br-100 b--dark-gray ba pa1 ma1"
+                    alt="VScode"
+                  />
+                </div>
+                <div className="white-50 tc v-mid pa2">
+                © 2020 andrewaz
                 </div>
               </div>
             </footer>
@@ -187,6 +247,60 @@ function App() {
 function Home(home) {
   return (
     <div className="App">
+    <div className="absolute top-0 bottom-0 left-0 right-0">
+    <Particles
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 160,
+	            "density": {
+	                "enable": false
+	            }
+	        },
+	        "size": {
+	            "value": 6,
+	            "random": true,
+	            "anim": {
+	                "speed": 4,
+	                "size_min": 0.3
+	            }
+	        },
+	        "line_linked": {
+	            "enable": false
+	        },
+	        "move": {
+	            "random": true,
+	            "speed": 1,
+	            "direction": "top",
+	            "out_mode": "out"
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "bubble"
+	            },
+	            "onclick": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        },
+	        "modes": {
+	            "bubble": {
+	                "distance": 250,
+	                "duration": 2,
+	                "size": 0,
+	                "opacity": 0
+	            },
+	            "repulse": {
+	                "distance": 400,
+	                "duration": 4
+	            }
+	        }
+	    }
+	    }} />
+      </div>
       <div className="tc mt2 mt3-m mt4-l ph3">
         <div className="pa3">
           <Link className="aaz-link no-underline dib grow-large" to="/about">
@@ -232,7 +346,7 @@ function Home(home) {
                 alt="Bobby Healy's Linkedin"
               />
             </a>
-            <span className="i fw2 db">CEO and Founder, Manna.aero</span></div>
+            <span className="i fw2 db">CEO and Founder, Manna.aero</span> <span className="i fw2 f6 db">(Former CTO of Cartrawler, now serves as a Non Executive Director)</span></div>
             </Slide>
             <Slide index={1}>
             I have worked with Andrew in Oracle. We were team mates working on product development of Risk and Compliance products for the Financial Services Industry. Andrew was the front-end developer in the project. I must say that he was a really creative and a very knowledgeable developer. He always made sure the user interfaces had impressive aesthetics, were intuitive and high performing. He was also a very good team player and would co-operate very well with the rest of the developers in the team. Andrew would always be up to date with new UI technologies and would recommend best practices and UI widgets suitable for the product UIs. Andrew also has demonstrated a great level of commitment to the project and the organization often working long hours and ensuring product deliverables and customer commitments are successfully met.<br /><br />
@@ -326,9 +440,9 @@ function About() {
                       <p className="lh-copy measure f4 mt0">
                       I enjoy building beautiful web pages focused on crafting clean html and delivering user‑friendly experiences.
                       <br /><br />
-                      I believe in joining hands in making things that can a make a difference!
-                      <br /><br />
                       I could work on any applications written in any languages, be it java play, react, angular, asp or php, quickly adapt to the workflow and work well with the team to get it built.
+                      <br /><br />
+                      I believe in joining hands to create things that can a make a difference!
                       </p>  
                     </section>
                   </div>
@@ -343,14 +457,14 @@ function About() {
         <div className="bg-white-10 pv3 w-100">
           <div className="w-100 mw8 center">
           <div className="pa2 pt0 tl">
-            <header className="bb b--black-20 pb4 pt4">
+            <header className="bb b--black-20 pb4 pt4 ph4">
               <h3 className="f2 fw7 lh-title mt0 mb3 heading-font fw7 white">start ups and my contribution</h3>
               <h4 className="f3 fw4 lh-title ma0 white mb3">I've worked for 'start up' companies in Ireland and India, helped them grow into a world-class leader in their respective domain.</h4>
             </header>
 
             <CarouselProvider className="center bg-black-30 relative ph5 pv4 mb3"
               naturalSlideWidth={120}
-              naturalSlideHeight={40}
+              naturalSlideHeight={46}
               totalSlides={3}
               isPlaying={true}
               infinite={true}
@@ -362,7 +476,8 @@ function About() {
                 <article>
                 <div className="dt w-100 h-100 bg-white">
                   <div className="dtc w-40 black lh-copy f4 mt0 pa3 v-top">
-                  In the last company, Cartrawler, where I served for 13 years, I've played a key part in the integration of car hire booking engine for top airlines, hotels and travel agents.
+                  In the last company, Cartrawler, where I started working from early 'startup' years, I've played a key part in the integration of car hire booking engine for top airlines and travel sites. Cartrawler today is one of the best places to work for in Ireland and I'm proud to be part of this highly successful years.
+
                   </div>
                   <div className="dtc w-60 v-top">
                     <a href="https://www.cartrawler.com/" className="dib"
@@ -404,7 +519,7 @@ function About() {
                 <article>
                 <div className="dt w-100 h-100 bg-white">
                   <div className="dtc w-40 black lh-copy f4 mt0 pa3 v-top">
-                  Worked for enventure from the early startup years, although joined as Electronic Engineer, volunteered to build intranet, my first web project. After this my passion for web design and development never stopped :)
+                  I worked for enventure from the early startup years. Although joined as Electronic Engineer, I volunteered to build intranet, my first web project ever. After this my passion for web design and development never stopped :)
                   </div>
                   <div className="dtc w-60 v-top">
                     <a href="https://www.enventure.com/" className="dib"
@@ -478,14 +593,25 @@ function Gallery() {
                       <h3 className="f2 fw7 lh-title mt0 mb3 heading-font">my work @ Cartrawler</h3>
                       <h4 className="f3 fw4 lh-title ma0">Nov 2006 – Present</h4>
                     </header>
-                    <section className="pv4">
+                    <section className="pt4 pb1">
                       <p className="lh-copy measure f4 mt0 mb0">
-                      Build, maintain and expand car rental and ground transportation landing pages and widgets
+                      Most of my time in Cartrawler, I was responsible for building user interface, maintaining, expanding car rental and mobility microsites and widgets. I have integrated white label solutions to more than 100 websites including top airlines and travel sites.
                       <br /><br />
-                      Liaising with stakeholders to create a full design and get it built
+                      I'm a team player, highly motivated, flexible individual. I've been through many transitions in the company and have always supported every change, and here we go, still proud to be associated with Cartrawler.
                       <br /><br />
-                      Technical assistance to clients in Australian market
-                      </p>  
+                      Since I moved to Australia, I've actively involved in technical assistance to clients, liaising with stakeholders to create a full design and get it built.
+                      <br /><br />
+                      <a href="https://www.cartrawler.com/" className="dib"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            src={logoCartrawler}
+                            className="aaz-logo-cartrawler w-100"
+                            alt="Cartrawler"
+                          />
+                        </a>
+                      </p>
                     </section>
                     {/* 
                     Actively involved in the Jetstar car rental transition. <br />

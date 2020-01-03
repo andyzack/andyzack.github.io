@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import photograph from './assets/images/profile-pic-original.jpg';
+import photograph from './assets/images/profile-pic.jpg';
 import autograph from './assets/images/andrew-az.png';
 import logo from './assets/images/logo.png';
 import iconHome from './assets/images/000-home.svg';

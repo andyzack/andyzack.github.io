@@ -71,38 +71,38 @@ function App() {
         <div className="bg-black-80 pb3 pb4-m pb5-l">
           <header className="bg-white-10 relative z-999">
             <nav className="dt w-100 mw8 center"> 
-              <div className="dtc w2 v-mid pa3">
+              <div className="dtc w2 v-mid pa3-ns pa1">
                 <Link className="dib h2 pa1 grow-large border-box" to="/">
                   <img
                     src={logo}
-                    className="w4 mw-none"
+                    className="w4-ns w3 mw-none"
                     alt="AAZ"
                   />
                 </Link>
               </div>
-              <div className="dtc v-mid tr pa3">
-                <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow aaz-home" to="/">
+              <div className="dtc v-mid tr pa3-ns pa1">
+                <Link className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow aaz-home dn" to="/">
                   <img
                     src={iconHome}
                     className="aaz-icon-home w2 bg-black-70 br-100 b--white ba"
                     alt="Home"
                   />
                 </Link>
-                <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow" to="/About">
+                <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/About">
                   <img
                     src={iconAbout}
                     className="aaz-icon-about w2 bg-white-70 br-100 b--white ba"
                     alt="About me"
                   />
                 </Link>
-                <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow" to="/Gallery">
+                <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/Gallery">
                   <img
                     src={iconGallery}
                     className="aaz-icon-gallery w2 bg-white-70 br-100 b--white ba"
                     alt="Gallery"
                   />
                 </Link>
-                <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow" to="/Resume">
+                <Link className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow dn" to="/Resume">
                   <img
                     src={iconResume}
                     className="aaz-icon-resume w2 bg-white-70 br-100 b--white ba"
@@ -111,7 +111,7 @@ function App() {
                 </Link>
                 
                 <a
-                  className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow"
+                  className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow"
                   href="https://www.linkedin.com/in/andrew-zacharias/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -123,7 +123,7 @@ function App() {
                   />
                 </a>
                 <a
-                  className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow"
+                  className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow"
                   href="mailto:andyzack@gmail.com?subject=andyzack.github.io feedback&body=Your Site looks awesome!"
                   rel="noopener noreferrer"
                 >
@@ -134,7 +134,7 @@ function App() {
                   />
                 </a>
                 <a
-                  className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow"
+                  className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow"
                   href="https://www.facebook.com/andrewazweb/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -146,7 +146,7 @@ function App() {
                   />
                 </a>
                 <a
-                  className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 ph1 grow"
+                  className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow"
                   href="tel:&#43;&#54;&#49;&#52;&#54;&#56;&#51;&#54;&#54;&#56;&#50;&#48;"
                   rel="noopener noreferrer"
                 >
@@ -247,7 +247,7 @@ function App() {
 function Home(home) {
   return (
     <div className="App">
-    <div className="absolute top-0 bottom-0 left-0 right-0">
+    <div className="absolute top-0 bottom-0 left-0 right-0 dn db-ns">
     <Particles
     params={{
 	    "particles": {
@@ -322,7 +322,7 @@ function Home(home) {
         </div>
         <p className="f3 white pt1 pb4 ma0">A passionate front-end web developer</p>
         
-        <div className="w-100 mw8 center">
+        <div className="w-100 mw8 center ba b--dark-gray">
         <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph4 pv2"
           naturalSlideWidth={120}
           naturalSlideHeight={40}
@@ -426,9 +426,9 @@ function About() {
   return (
     <div className="App">
       <div className="aaz-container justify-top">
-        <div className="w-100 dt no-repeat bg-center cover center w-100 aaz-banner-about">
+        <div className="w-100 dt no-repeat bg-lightest-blue bg-center cover center w-100 aaz-banner-about">
           <div className="mw8 center">
-            <div className="pa2 pt0 tl">
+            <div className="pa2-ns pt0 tl">
               <article data-name="article-full-bleed-background cf">
                 <div className="cf">
                   <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3">
@@ -462,7 +462,8 @@ function About() {
               <h4 className="f3 fw4 lh-title ma0 white mb3">I've worked for 'start up' companies in Ireland and India, helped them grow into a world-class leader in their respective domain.</h4>
             </header>
 
-            <CarouselProvider className="center bg-black-30 relative ph5 pv4 mb3"
+            <div className="w-100 mw8 center ba b--dark-gray">
+            <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph4 pv2"
               naturalSlideWidth={120}
               naturalSlideHeight={46}
               totalSlides={3}
@@ -537,18 +538,19 @@ function About() {
                 </article>
                 </Slide>
               </Slider>
-              <ButtonBack className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
-              <ButtonNext className="f2 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
+              <ButtonBack className="f2-ns f4 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3-ns ph1 pv2 absolute left-0 top-0 bottom-0">&lt;</ButtonBack>
+              <ButtonNext className="f2-ns f4 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--black-10 ph3-ns ph1 pv2 absolute right-0 top-0 bottom-0">&gt;</ButtonNext>
             </CarouselProvider>
+            </div>
             </div>
           </div>
         </div>
         {/* END CAROUSEL */}
 
         {/* START LEISURE */}
-        <div className="w-100 dt no-repeat bg-center cover center w-100 aaz-banner-adventure">
+        <div className="w-100 dt no-repeat bg-light-blue bg-center cover center w-100 aaz-banner-adventure">
           <div className="mw8 center">
-            <div className="pa2 pt0 tl">
+            <div className="pa2-ns pt0 tl">
               <article data-name="article-full-bleed-background cf">
                 <div className="cf">
                   <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3">
@@ -583,10 +585,10 @@ function Gallery() {
       <div className="aaz-container justify-top">
         <div className="w-100 dt no-repeat bg-center cover center w-100 aaz-banner-gallery">
           <div className="mw8 center">
-            <div className="pa2 pt0 tl">
+            <div className="pa2-ns pt0 tl">
               {/* START POSTER */}
               <main className="cf pa0">
-                <div className="fl w-100 w-50-ns ph2">
+                <div className="fl w-100 w-50-ns ph2-ns">
                   <div className="pb2 db no-underline black">
                     <div className="bg-white pa3 pa4-ns">
                     <header className="bb b--black-20 pb4">
@@ -622,21 +624,21 @@ function Gallery() {
                      */}
                     </div>
                   </div>
-                  <a className="no-underline pv2 pl2 grow db" 
+                  <a className="no-underline pv2 pl2 pr0-ns pr2 grow db" 
                     href="https://www.jetstar.com/au/en/car-hire"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img className="db w-100" src={snapshotXjetstar} alt="cartrawler" />
                   </a>
-                  <a className="no-underline pv2 pl2 grow db" 
+                  <a className="no-underline pv2 pl2 pr0-ns pr2 grow db" 
                     href="http://cars.airasia.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img className="db w-100" src={snapshotXairasia} alt="cartrawler" />
                   </a>
-                  <a className="no-underline pv2 pl2 grow db" 
+                  <a className="no-underline pv2 pl2 pr0-ns pr2 grow db" 
                     href="https://www.aurignycarhire.com/"
                     target="_blank"
                     rel="noopener noreferrer"

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/andyzack.github.io/static/css/main.ef48abfb.chunk.css",
-    "main.js": "/andyzack.github.io/static/js/main.8b0956ca.chunk.js",
-    "main.js.map": "/andyzack.github.io/static/js/main.8b0956ca.chunk.js.map",
+    "main.css": "/andyzack.github.io/static/css/main.86f6a249.chunk.css",
+    "main.js": "/andyzack.github.io/static/js/main.edf81afd.chunk.js",
+    "main.js.map": "/andyzack.github.io/static/js/main.edf81afd.chunk.js.map",
     "runtime-main.js": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js",
     "runtime-main.js.map": "/andyzack.github.io/static/js/runtime-main.846d2f6b.js.map",
     "static/css/2.1fd2b905.chunk.css": "/andyzack.github.io/static/css/2.1fd2b905.chunk.css",
-    "static/js/2.7fc1ce9e.chunk.js": "/andyzack.github.io/static/js/2.7fc1ce9e.chunk.js",
-    "static/js/2.7fc1ce9e.chunk.js.map": "/andyzack.github.io/static/js/2.7fc1ce9e.chunk.js.map",
+    "static/js/2.b89d4bb6.chunk.js": "/andyzack.github.io/static/js/2.b89d4bb6.chunk.js",
+    "static/js/2.b89d4bb6.chunk.js.map": "/andyzack.github.io/static/js/2.b89d4bb6.chunk.js.map",
     "index.html": "/andyzack.github.io/index.html",
-    "precache-manifest.3eafaca5fcbc5e8736a46a0111f5ae16.js": "/andyzack.github.io/precache-manifest.3eafaca5fcbc5e8736a46a0111f5ae16.js",
+    "precache-manifest.360b46feac5c7091632fe57161bc471d.js": "/andyzack.github.io/precache-manifest.360b46feac5c7091632fe57161bc471d.js",
     "service-worker.js": "/andyzack.github.io/service-worker.js",
     "static/css/2.1fd2b905.chunk.css.map": "/andyzack.github.io/static/css/2.1fd2b905.chunk.css.map",
-    "static/css/main.ef48abfb.chunk.css.map": "/andyzack.github.io/static/css/main.ef48abfb.chunk.css.map",
-    "static/js/2.7fc1ce9e.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.7fc1ce9e.chunk.js.LICENSE",
+    "static/css/main.86f6a249.chunk.css.map": "/andyzack.github.io/static/css/main.86f6a249.chunk.css.map",
+    "static/js/2.b89d4bb6.chunk.js.LICENSE": "/andyzack.github.io/static/js/2.b89d4bb6.chunk.js.LICENSE",
     "static/media/000-document-1.svg": "/andyzack.github.io/static/media/000-document-1.111f061f.svg",
     "static/media/000-email.svg": "/andyzack.github.io/static/media/000-email.af6134f2.svg",
     "static/media/000-home.svg": "/andyzack.github.io/static/media/000-home.fffa3e4d.svg",
@@ -36,7 +36,6 @@
     "static/media/snapshotXernest-airlines.png": "/andyzack.github.io/static/media/snapshotXernest-airlines.21bdb866.png",
     "static/media/snapshotXflybondi.png": "/andyzack.github.io/static/media/snapshotXflybondi.578ddd1d.png",
     "static/media/snapshotXjetstar.png": "/andyzack.github.io/static/media/snapshotXjetstar.cd63a8ff.png",
-    "static/media/snapshotXmain.jpg": "/andyzack.github.io/static/media/snapshotXmain.5d0d9dfb.jpg",
     "static/media/snapshotXnorwegian.png": "/andyzack.github.io/static/media/snapshotXnorwegian.3d8ffb08.png",
     "static/media/snapshotXswiss.png": "/andyzack.github.io/static/media/snapshotXswiss.be81c3b1.png",
     "static/media/snapshotXthaismile.png": "/andyzack.github.io/static/media/snapshotXthaismile.f0922bef.png",
@@ -47,8 +46,8 @@
   "entrypoints": [
     "static/js/runtime-main.846d2f6b.js",
     "static/css/2.1fd2b905.chunk.css",
-    "static/js/2.7fc1ce9e.chunk.js",
-    "static/css/main.ef48abfb.chunk.css",
-    "static/js/main.8b0956ca.chunk.js"
+    "static/js/2.b89d4bb6.chunk.js",
+    "static/css/main.86f6a249.chunk.css",
+    "static/js/main.edf81afd.chunk.js"
   ]
 }

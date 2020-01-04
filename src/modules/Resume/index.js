@@ -11,14 +11,14 @@ const Resume = () => (
     <div className="mw8 center">
       <div className="pa2 pt0 tl">
         {/* START POSTER */}
-        <div className="w-100 ph2">
+        <div className="w-100 ph2 relative overflow-hidden">
           <iframe
             title="Andrew's Resume"
             src={documentResume}
             height="800"
-            allowtransparency="true"
-            allowfullscreen="true"
-            className="w-100 h-5 bg-transparent bw0"
+            allowtransparency={true.toString()}
+            allowFullScreen={true}
+            className="w-100 h-5 ba0 bg-transparent bw0"
           >
           </iframe>
         </div>

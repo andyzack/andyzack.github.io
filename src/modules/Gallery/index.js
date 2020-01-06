@@ -2,24 +2,24 @@ import React from 'react';
 import iconGallery from '../../assets/images/000-internet.svg';
 import logoCartrawler from '../../assets/images/logo-cartrawler.png';
 
-import snapshotXairasia from '../../assets/images/snapshotXairasia.png';
-import snapshotXflybondi from '../../assets/images/snapshotXflybondi.png';
-import snapshotXjetstar from '../../assets/images/snapshotXjetstar.png';
-import snapshotXswiss from '../../assets/images/snapshotXswiss.png';
-import snapshotXwestjet from '../../assets/images/snapshotXwestjet.png';
-import snapshotXaurigny from '../../assets/images/snapshotXaurigny.png';
-import snapshotXaerlingus from '../../assets/images/snapshotXaerlingus.png';
-import snapshotXatlasgbl from '../../assets/images/snapshotXatlasgbl.png';
-import snapshotXemirates from '../../assets/images/snapshotXemirates.png';
-import snapshotXernest from '../../assets/images/snapshotXernest-airlines.png';
-import snapshotXnorwegian from '../../assets/images/snapshotXnorwegian.png';
-import snapshotXthaismile from '../../assets/images/snapshotXthaismile.png';
-import snapshotXtix from '../../assets/images/snapshotXtix.png';
-import snapshotXvirginaustralia from '../../assets/images/snapshotXvirginaustralia.png';
+import snapshotXairasia from '../../assets/images/snapshot/airasia.png';
+import snapshotXflybondi from '../../assets/images/snapshot/flybondi.png';
+import snapshotXjetstar from '../../assets/images/snapshot/jetstar.png';
+import snapshotXswiss from '../../assets/images/snapshot/swiss.png';
+import snapshotXwestjet from '../../assets/images/snapshot/westjet.png';
+import snapshotXaurigny from '../../assets/images/snapshot/aurigny.png';
+import snapshotXaerlingus from '../../assets/images/snapshot/aerlingus.png';
+import snapshotXatlasgbl from '../../assets/images/snapshot/atlasgbl.png';
+import snapshotXemirates from '../../assets/images/snapshot/emirates.png';
+import snapshotXernest from '../../assets/images/snapshot/ernest-airlines.png';
+import snapshotXnorwegian from '../../assets/images/snapshot/norwegian.png';
+import snapshotXthaismile from '../../assets/images/snapshot/thaismile.png';
+import snapshotXtix from '../../assets/images/snapshot/tix.png';
+import snapshotXvirginaustralia from '../../assets/images/snapshot/virginaustralia.png';
 
-import snapshotWairasia from '../../assets/images/snapshotWairasia.png';
-import snapshotWcondor from '../../assets/images/snapshotWcondor.png';
-import snapshotWryanair from '../../assets/images/snapshotWryanair.jpg';
+import snapshotWairasia from '../../assets/images/snapshot/airasia-w.png';
+import snapshotWcondor from '../../assets/images/snapshot/condor-w.png';
+import snapshotWryanair from '../../assets/images/snapshot/ryanair-w.jpg';
 
 const Gallery = () => (
 <div className="aaz-container justify-top">

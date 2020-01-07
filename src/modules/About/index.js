@@ -1,5 +1,4 @@
 import React from 'react';
-import iconAbout from '../../assets/images/000-user-3.svg';
 
 import aboutCartrawler from '../../assets/images/about-cartrawler.jpg';
 import aboutOracle from '../../assets/images/about-oracle.jpg';
@@ -161,13 +160,4 @@ const About = () => (
 </div>
 );
 
-export default {
-    routeProps: {
-        path: '/about',
-        component: About
-    },
-    name: 'About',
-    icon: iconAbout,
-    imgStyle: 'aaz-icon-about w2 bg-white-70 br-100 b--white ba',
-    linkStyle: 'f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow'
-}
+export default About;

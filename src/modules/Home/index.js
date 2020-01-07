@@ -2,7 +2,6 @@ import React from 'react';
 import {
   Link
 } from "react-router-dom";
-import iconHome from '../../assets/images/000-home.svg';
 import photograph from '../../assets/images/profile-pic.jpg';
 import autograph from '../../assets/images/andrew-az.png';
 import iconLinkedin from '../../assets/images/010-linkedin.svg';
@@ -79,15 +78,17 @@ const Home = () => (
         </Link>
       </div>
       <div className="pt3">
-        <Link className="aaz-link no-underline dib grow-large" to="/about">
-          <img
-            src={autograph}
-            className="aaz-autograph w5"
-            alt="Andrew's Autograph"
-          />
-        </Link>
+        <h1>
+          <Link className="aaz-link no-underline dib grow-large" to="/about">
+            <img
+              src={autograph}
+              className="aaz-autograph w5"
+              alt="Andrew's Autograph"
+            />
+          </Link>
+        </h1>
       </div>
-      <p className="f3 white pt1 pb4 ma0">A passionate front-end web developer</p>
+      <h2 className="f3 white pt1 pb4 ma0">A passionate front-end web developer</h2>
       
       <div className="w-100 mw8 center ba b--dark-gray">
       <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph4 pv2"
@@ -188,14 +189,4 @@ const Home = () => (
   </div>
 );
 
-export default {
-    routeProps: {
-        path: '/',
-        exact: true,
-        component: Home
-    },
-    name: 'Home',
-    icon: iconHome,
-    imgStyle: 'aaz-icon-home w2 bg-black-70 br-100 b--white ba',
-    linkStyle: 'f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow aaz-home dn',
-}
+export default Home;

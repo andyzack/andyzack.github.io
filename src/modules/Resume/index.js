@@ -1,5 +1,4 @@
 import React from 'react';
-import iconResume from '../../assets/images/000-document-1.svg';
 import documentResume from '../../assets/docs/andrew-new.pdf';
 
 // eslint-disable-next-line no-unused-vars
@@ -28,13 +27,4 @@ const Resume = () => (
 </div>
 );
 
-export default {
-    routeProps: {
-        path: '/resume',
-        component: Resume
-    },
-    name: 'Resume',
-    icon: iconResume,
-    imgStyle: 'aaz-icon-resume w2 bg-white-70 br-100 b--white ba',
-    linkStyle: 'f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow dn',
-}
+export default Resume;

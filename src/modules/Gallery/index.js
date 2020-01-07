@@ -1,5 +1,4 @@
 import React from 'react';
-import iconGallery from '../../assets/images/000-internet.svg';
 import logoCartrawler from '../../assets/images/logo-cartrawler.png';
 
 import snapshotXairasia from '../../assets/images/snapshot/airasia.jpg';
@@ -196,13 +195,4 @@ const Gallery = () => (
 </div>
 );
 
-export default {
-    routeProps: {
-        path: '/gallery',
-        component: Gallery
-    },
-    name: 'Gallery',
-    icon: iconGallery,
-    imgStyle: 'aaz-icon-gallery w2 bg-white-70 br-100 b--white ba',
-    linkStyle: 'f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow',
-}
+export default Gallery;

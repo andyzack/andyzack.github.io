@@ -20,22 +20,24 @@ function App() {
       <div className="App">
         <div className="cover bg-left bg-center-l aaz-banner-main">
           <div className="bg-black-80 pb3 pb4-m pb5-l">
-            <header className="bg-white-10 dt w-100 mw8 center relative z-999">
-              <div className="dtc w2 v-mid pa3-ns pa1">
-                <Link className="dib pa1 grow-large border-box" to="/">
-                  <img
-                    src={logo}
-                    className="w4-ns w3 mw-none"
-                    alt="AAZ"
-                  />
-                </Link>
-              </div>
-              <div className="dtc v-mid tr pa3-ns pa1">
-              <ErrorBoundary fallback={"Couldn't catch menu!"}>
-                <React.Suspense fallback="loading menu...">
-                  <TopNav />
-                </React.Suspense>
-              </ErrorBoundary>
+            <header className="bg-white-10">
+              <div className="dt w-100 mw8 center relative z-999">
+                <div className="dtc w2 v-mid pa3-ns pa1">
+                  <Link className="dib pa1 grow-large border-box" to="/">
+                    <img
+                      src={logo}
+                      className="w4-ns w3 mw-none"
+                      alt="AAZ"
+                    />
+                  </Link>
+                </div>
+                <div className="dtc v-mid tr pa3-ns pa1">
+                <ErrorBoundary fallback={"Couldn't catch menu!"}>
+                  <React.Suspense fallback="loading menu...">
+                    <TopNav />
+                  </React.Suspense>
+                </ErrorBoundary>
+                </div>
               </div>
             </header>
             <div className="App-content">

@@ -78,7 +78,7 @@ const Home = () => (
         </Link>
       </div>
       <div className="pt3">
-        <h1>
+        <h1 className="ma0 pa0">
           <Link className="aaz-link no-underline dib grow-large" to="/about">
             <img
               src={autograph}

@@ -1,0 +1,11 @@
+                  {modules.map(module => ( // with a name, and routes
+                  <span key={module.name} className={currentTab === module.name ? 'active' : ''}>
+                    <Link className={module.linkStyle} to={module.routeProps.path} onClick={() => setCurrentTab(module.name)}>
+                      <img
+                        src={module.icon}
+                        className={module.imgStyle}
+                        alt={module.name}
+                      />
+                    </Link>
+                  </span>
+                  ))}

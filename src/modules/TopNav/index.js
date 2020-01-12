@@ -7,7 +7,6 @@ import iconGallery from '../../assets/images/000-internet.svg';
 import iconResume from '../../assets/images/000-document-1.svg';
 import iconContact from '../../assets/images/000-email.svg';
 import iconLinkedin from '../../assets/images/010-linkedin.svg';
-import iconFacebook from '../../assets/images/001-facebook.svg';
 import iconWhatsapp from '../../assets/images/003-whatsapp.svg';
 
 const TopNav = () => (
@@ -63,18 +62,6 @@ const TopNav = () => (
         src={iconContact}
         className="aaz-icon-linkedin w2 bg-white-70 br-100 b--white ba"
         alt="Email"
-      />
-    </a>
-    <a
-      className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow"
-      href="https://www.facebook.com/andrewazweb/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src={iconFacebook}
-        className="aaz-icon-facebook w2 bg-white-70 br-100 b--white ba"
-        alt="Facebook"
       />
     </a>
     <a

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f246fb85f2838a6ecf76bd802c9b7f63",
+    "revision": "c36dd98bc2834284bc9d9a2c91ee650b",
     "url": "/andyzack.github.io/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andyzack.github.io/static/css/0.1fd2b905.chunk.css"
   },
   {
-    "revision": "1cedee0d436c08885bd6",
-    "url": "/andyzack.github.io/static/css/main.ca724e1c.chunk.css"
+    "revision": "2dd62346200611968019",
+    "url": "/andyzack.github.io/static/css/main.72224073.chunk.css"
   },
   {
     "revision": "1ce4fcf44ce62b183157",
     "url": "/andyzack.github.io/static/js/0.45a9ad3b.chunk.js"
   },
   {
-    "revision": "ade858f9aa340defde53",
-    "url": "/andyzack.github.io/static/js/10.23d2dd08.chunk.js"
+    "revision": "a58be0a2f704f2aadf30",
+    "url": "/andyzack.github.io/static/js/10.dc3b8a1b.chunk.js"
   },
   {
     "revision": "ee476cd13624ba456de4",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andyzack.github.io/static/js/9.b3a17037.chunk.js"
   },
   {
-    "revision": "1cedee0d436c08885bd6",
-    "url": "/andyzack.github.io/static/js/main.ed8a870d.chunk.js"
+    "revision": "2dd62346200611968019",
+    "url": "/andyzack.github.io/static/js/main.95d7bc2f.chunk.js"
   },
   {
-    "revision": "d99792d4528cdd549fe7",
-    "url": "/andyzack.github.io/static/js/runtime-main.cf3a2c94.js"
+    "revision": "068dad6a82acdd024173",
+    "url": "/andyzack.github.io/static/js/runtime-main.b45ee216.js"
   },
   {
     "revision": "111f061faf506f038b4305e42f2679de",
@@ -162,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "df085381b217452cd5b3644b8c4dc2d0",
     "url": "/andyzack.github.io/static/media/jetstar.df085381.jpg"
+  },
+  {
+    "revision": "281e5f7b26fdb141709340d4c3fed940",
+    "url": "/andyzack.github.io/static/media/logo.281e5f7b.png"
   },
   {
     "revision": "7e15ce2d5a3af224726b782f02f2145a",

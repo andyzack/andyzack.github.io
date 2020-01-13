@@ -1,6 +1,6 @@
 {
-  "short_name": "Andrew Zacharia's Portfolio",
-  "name": "Andrew Arokiaraj Zacharia, a passionate front-end web developer",
+  "short_name": "Andrew's Portfolio",
+  "name": "Andrew A Zacharia, a passionate front-end web developer",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,12 +10,12 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x48"
+      "sizes": "192x192"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x127"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",

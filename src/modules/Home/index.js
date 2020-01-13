@@ -95,7 +95,7 @@ const Home = () => (
       >
         <Slider className="f4-ns f5 white-70 tc tj-ns overflow-y-auto vh-50 h-auto-l aaz-blockquote">
           <Slide index={0}>
-          Andrew is a passionate and dedicated individual and could work on any platform or technology. He's a quick learner and a hard worker. I've seen him grow from a Web designer to web developer - expanding his ability and knowledge and being part of an awesome team. He was part of Cartrawler and its journey to become the world’s leading B2B travel tech company, and a strong asset to the company. Andrew continues his association by providing his services and support to Cartrawler even after he moved to Australia. I wish him all the success and am proud to have known him professionally and personally all these years. He's a really great team player and all round great guy and I'm happy to recommend him.<br /><br />
+          "Andrew is a passionate and dedicated individual and could work on any platform or technology. He's a quick learner and a hard worker. I've seen him grow from a Web designer to web developer - expanding his ability and knowledge and being part of an awesome team. He was part of Cartrawler and its journey to become the world’s leading B2B travel tech company, and a strong asset to the company. Andrew continues his association by providing his services and support to Cartrawler even after he moved to Australia. I wish him all the success and am proud to have known him professionally and personally all these years. He's a really great team player and all round great guy and I'm happy to recommend him."<br /><br />
           <div className="fw6 tc">Bobby Healy
           <a href="https://www.linkedin.com/in/bhealy/" className="dib pa1" 
             target="_blank"
@@ -110,7 +110,7 @@ const Home = () => (
           <span className="f5 fw2 db">CEO and Founder, Manna.aero</span> <span className="i fw2 f6 db">(Former CTO of Cartrawler, now Non Executive Director)</span></div>
           </Slide>
           <Slide index={1}>
-          I have worked with Andrew in Oracle. We were team mates working on product development of Risk and Compliance products for the Financial Services Industry. Andrew was the front-end developer in the project. I must say that he was a really creative and a very knowledgeable developer. He always made sure the user interfaces had impressive aesthetics, were intuitive and high performing. He was also a very good team player and would co-operate very well with the rest of the developers in the team. Andrew would always be up to date with new UI technologies and would recommend best practices and UI widgets suitable for the product UIs. Andrew also has demonstrated a great level of commitment to the project and the organization often working long hours and ensuring product deliverables and customer commitments are successfully met.<br /><br />
+          "I have worked with Andrew in Oracle. We were team mates working on product development of Risk and Compliance products for the Financial Services Industry. Andrew was the front-end developer in the project. I must say that he was a really creative and a very knowledgeable developer. He always made sure the user interfaces had impressive aesthetics, were intuitive and high performing. He was also a very good team player and would co-operate very well with the rest of the developers in the team. Andrew would always be up to date with new UI technologies and would recommend best practices and UI widgets suitable for the product UIs. Andrew also has demonstrated a great level of commitment to the project and the organization often working long hours and ensuring product deliverables and customer commitments are successfully met."<br /><br />
           <div className="fw6 tc">Lovell Mathews
           <a href="https://www.linkedin.com/in/lovellmathews/" className="dib pa1"
             target="_blank"
@@ -125,11 +125,11 @@ const Home = () => (
           <span className="f5 fw2 db">Director, Oracle Financial Services</span></div>
           </Slide>
           <Slide index={2}>
-          I worked in the same team with Andrew for three years. Two years at the same office and one year remotely as he moved to Australia. His work quality was not impacted after this change.<br />
+          "I worked in the same team with Andrew for three years. Two years at the same office and one year remotely as he moved to Australia. His work quality was not impacted after this change.<br /><br />
 
           Andrew is a dedicated person. He's a solution-driven and self-motivated person. His approach to solving a problem is to understand the issue to present the right solution for it. When touching legacy code, he's always making sure to introduce improvements and updating documentation when applicable.<br /><br />
 
-          He is an approachable and friendly person. It's excellent to have him around. He brings unique energy wherever he is. <br /><br />
+          He is an approachable and friendly person. It's excellent to have him around. He brings unique energy wherever he is." <br /><br />
           <div className="fw6 tc">Bruno De Mauro
           <a href="https://www.linkedin.com/in/bdimauroh/" className="dib pa1"
             target="_blank"
@@ -144,7 +144,7 @@ const Home = () => (
           <span className="f5 fw2 db">Engineering Manager, Zendesk</span></div>
           </Slide>
           <Slide index={3}>
-          It's an absolute pleasure to recommend Andrew. Andrew and I worked together in CarTrawler from the early 'startup' years and through the highly successful years as the company grew to the hundreds of people. Andrew was a key part of the development team on the frontend side, he built and lead many solutions that were key to the success of numerous partner deals. Always a reliable pair of hands with a focus on technical efficiency and mentoring other team members. Andrew cares deeply about high-quality technical solutions and is always bonus to have on a team. <br /><br />
+          "It's an absolute pleasure to recommend Andrew. Andrew and I worked together in CarTrawler from the early 'startup' years and through the highly successful years as the company grew to the hundreds of people. Andrew was a key part of the development team on the frontend side, he built and lead many solutions that were key to the success of numerous partner deals. Always a reliable pair of hands with a focus on technical efficiency and mentoring other team members. Andrew cares deeply about high-quality technical solutions and is always bonus to have on a team." <br /><br />
           <div className="fw6 tc">Alan Hicks
           <a href="https://www.linkedin.com/in/alhicks/" className="dib pa1"
             target="_blank"
@@ -159,7 +159,7 @@ const Home = () => (
           <span className="f5 fw2 db">CTO, Manna.aero</span></div>
           </Slide>
           <Slide index={4}>
-          I thoroughly enjoyed working with Andrew in my time at CarTrawler. He was a fantastic engineer and contributor to the team -- dedicated, great team player, diligent and proactively worked to improve practices.<br /><br />
+          "I thoroughly enjoyed working with Andrew in my time at CarTrawler. He was a fantastic engineer and contributor to the team -- dedicated, great team player, diligent and proactively worked to improve practices." <br /><br />
           <div className="fw6 tc">Deborah Clarke 
           <a href="https://www.linkedin.com/in/clarkedeborah/" className="dib pa1"
             target="_blank"

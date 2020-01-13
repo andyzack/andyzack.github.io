@@ -27,6 +27,16 @@
 
     <title>Andrew Zacharia</title>
 
+    <!-- Pre-fetching is a way of hinting to the browser about resources -->
+    <link rel="dns-prefetch" href="//www.google-analytics.com" />
+    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+
+    <!-- preconnect will resolve the DNS, it will also make the TCP handshake -->
+    <link rel="preconnect" href="//www.google-analytics.com" />
+    <link rel="preconnect" href="//www.googletagmanager.com" />
+    <link rel="preconnect" href="//fonts.gstatic.com" />
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

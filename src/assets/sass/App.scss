@@ -95,10 +95,20 @@ body {
 	color: #61dafb;
 }
 
-.aaz-blockquote {
-	overflow-y: auto !important;
-	@media (--breakpoint-medium) {
-		min-height: 500px;
+.carousel {
+	.aaz-blockquote {
+		overflow-y: auto !important;
+		@media (--breakpoint-medium) {
+			min-height: 500px;
+		}
+	}
+	button span {
+		width: 22px;
+		height: 22px;
+		@media (--breakpoint-not-small) {
+			width: auto;
+			height: auto;
+		}
 	}
 }
 

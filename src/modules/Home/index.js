@@ -66,7 +66,7 @@ const Home = () => (
       }
     }} />
     </div>
-    <div className="tc mt2 mt3-m mt4-l ph3">
+    <div className="tc mt2 mt3-m mt4-l ph3-ns ph2">
       <div className="pa3">
         <Link className="aaz-link no-underline dib grow-large" to="/about">
           <img
@@ -84,7 +84,7 @@ const Home = () => (
       <h2 className="f4-ns f5 white pt1 pb4 ma0">A passionate front-end web developer</h2>
       
       <div className="w-100 mw8 center ba b--dark-gray">
-      <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph2 pv2"
+      <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph2 pv3"
         naturalSlideWidth={120}
         naturalSlideHeight={40}
         totalSlides={5}
@@ -174,8 +174,12 @@ const Home = () => (
           <span className="f5 fw2 db">Principal Product Manager, Head of Seller Trust and Loyalty at Amazon</span></div>
           </Slide>
         </Slider>
-        <ButtonBack className="f2-ns f4 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--white-10 ph3-ns ph1 pv2 absolute-ns left-0 top-0 bottom-0">&lt;</ButtonBack>
-        <ButtonNext className="f2-ns f4 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--white-10 ph3-ns ph1 pv2 absolute-ns right-0 top-0 bottom-0">&gt;</ButtonNext>
+        <ButtonBack className="f2-ns f5 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--white-10 ph3-ns mt2 mt0-ns ph1 pv2-ns pv1 absolute left-0 top-0-ns top--2 bottom-0-ns">
+          <span class="dtc tc v-mid grow pa1 pa0-ns ba bw0-ns b--white-60 br-100 bg-black">&lt;</span>
+        </ButtonBack>
+        <ButtonNext className="f2-ns f5 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--white-10 ph3-ns mt2 mt0-ns ph1 pv2-ns pv1 absolute right-0 top-0-ns top--2 bottom-0-ns">
+          <span class="dtc tc v-mid grow pa1 pa0-ns ba bw0-ns b--white-60 br-100 bg-black">&gt;</span>
+        </ButtonNext>
       </CarouselProvider>
       </div>
     </div>

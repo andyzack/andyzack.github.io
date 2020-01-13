@@ -22,11 +22,11 @@ function App() {
           <div className="bg-black-80 pb3 pb4-m pb5-l">
             <header className="bg-white-10">
               <div className="dt w-100 mw8 center relative z-999">
-                <div className="dtc w2 v-mid pa3-ns pa1">
+                <div className="dtc w2 v-mid ph3-ns ph1 pv1">
                   <Link className="dib pa1 grow-large border-box" to="/">
                     <img
                       src={logo}
-                      className="w4-ns w3 mw-none"
+                      className="w3-ns w2 mw-none"
                       alt="AAZ"
                     />
                   </Link>

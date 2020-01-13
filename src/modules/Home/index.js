@@ -3,7 +3,6 @@ import {
   Link
 } from "react-router-dom";
 import photograph from '../../assets/images/profile-pic.jpg';
-import autograph from '../../assets/images/andrew-az.png';
 import iconLinkedin from '../../assets/images/010-linkedin.svg';
 
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
@@ -78,17 +77,11 @@ const Home = () => (
         </Link>
       </div>
       <div className="pt3">
-        <h1 className="ma0 pa0">
-          <Link className="aaz-link no-underline dib grow-large" to="/about">
-            <img
-              src={autograph}
-              className="aaz-autograph w5"
-              alt="Andrew's Autograph"
-            />
-          </Link>
+        <h1 className="ma0 pa0 white f2 heading-font">
+          Andrew A Zacharia
         </h1>
       </div>
-      <h2 className="f3 white pt1 pb4 ma0">A passionate front-end web developer</h2>
+      <h2 className="f4 white pt1 pb4 ma0">A passionate front-end web developer</h2>
       
       <div className="w-100 mw8 center ba b--dark-gray">
       <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph4 pv2"
@@ -100,7 +93,7 @@ const Home = () => (
         lockOnWindowScroll={true}
         interval={30000}
       >
-        <Slider className="f4 white-70 tj overflow-y-auto aaz-blockquote">
+        <Slider className="f4 white-70 tj overflow-y-auto vh-50 h-auto-ns aaz-blockquote">
           <Slide index={0}>
           Andrew is a passionate and dedicated individual and could work on any platform or technology. He's a quick learner and a hard worker. I've seen him grow from a Web designer to web developer - expanding his ability and knowledge and being part of an awesome team. He was part of Cartrawler and its journey to become the world’s leading B2B travel tech company, and a strong asset to the company. Andrew continues his association by providing his services and support to Cartrawler even after he moved to Australia. I wish him all the success and am proud to have known him professionally and personally all these years. He's a really great team player and all round great guy and I'm happy to recommend him.<br /><br />
           <div className="fw6 tc">Bobby Healy

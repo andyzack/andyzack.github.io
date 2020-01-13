@@ -85,7 +85,7 @@ const Footer = () => (
       />
     </div>
     <div className="white-50 tc v-mid pa2">
-    © 2020 Andrew Zacharia
+    © 2020 Andrew Arokiaraj Zacharia
     </div>
   </div>
 </footer>

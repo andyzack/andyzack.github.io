@@ -95,6 +95,13 @@ body {
 	color: #61dafb;
 }
 
+.aaz-blockquote {
+	overflow-y: auto !important;
+	@media (--breakpoint-medium) {
+		min-height: 500px;
+	}
+}
+
 a {
 	&.active {
 		img {

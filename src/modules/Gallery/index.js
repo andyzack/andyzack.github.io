@@ -14,7 +14,6 @@ import snapshotXernest from '../../assets/images/snapshot/ernest-airlines.jpg';
 import snapshotXnorwegian from '../../assets/images/snapshot/norwegian.jpg';
 import snapshotXthaismile from '../../assets/images/snapshot/thaismile.jpg';
 import snapshotXtix from '../../assets/images/snapshot/tix.jpg';
-import snapshotXvirginaustralia from '../../assets/images/snapshot/virginaustralia.jpg';
 
 import snapshotWairasia from '../../assets/images/snapshot/airasia-w.jpg';
 import snapshotWcondor from '../../assets/images/snapshot/condor-w.jpg';
@@ -30,18 +29,21 @@ const Gallery = () => (
           <div className="fl w-100 w-50-ns ph2-ns">
             <div className="pb2 db no-underline black">
               <div className="bg-white pa3 pa4-ns">
-              <header className="bb b--black-20 pb4">
-                <h3 className="f2 fw7 lh-title mt0 mb3 heading-font">my work @ Cartrawler</h3>
-                <h4 className="f3 fw4 lh-title ma0">Nov 2006 – Present</h4>
+              <header className="bb b--black-20 pb3">
+                <h3 className="lh-title mt0 mb1 f2-ns f3 heading-font">My work @ Cartrawler</h3>
+                <h4 className="lh-title ma0 f3-ns f4 fw4">Nov 2006 – Present</h4>
               </header>
-              <section className="pt4 pb1">
-                <p className="lh-copy measure f4 mt0 mb0">
+              <section className="lh-copy measure f4-ns f5 mt0 mb0">
+                <p>
                 Most of my time in Cartrawler, I was responsible for building user interface, maintaining, expanding car rental and mobility microsites and widgets. I have integrated white label solutions to more than 100 websites including top airlines and travel sites.
-                <br /><br />
+                </p>
+                <p>
                 I'm a team player, highly motivated, flexible individual. I've been through many transitions in the company and have always supported every change, and here we go, still proud to be associated with Cartrawler.
-                <br /><br />
+                </p>
+                <p>
                 Since I moved to Australia, I've actively involved in technical assistance to clients, liaising with stakeholders to create a full design and get it built.
-                <br /><br />
+                </p>
+                <p>
                 <a href="https://www.cartrawler.com/" className="dib"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -150,13 +152,6 @@ const Gallery = () => (
               rel="noopener noreferrer"
             >
               <img className="db w-100" src={snapshotXtix} alt="cartrawler" />
-            </a>
-            <a className="pv2 grow db no-underline black"
-              href="https://cartrawler.virginaustralia.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="db w-100" src={snapshotXvirginaustralia} alt="cartrawler" />
             </a>
             <a className="pv2 grow db no-underline black"
               href="https://cars.cartrawler.com/airasia/widget?type=html&clientId=575248&lang=en&locCode=ams&curr=EUR&residencyId=IE&pkDateTime=202008291000&rtDateTime=202009071000"

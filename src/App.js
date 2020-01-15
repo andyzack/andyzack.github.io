@@ -13,6 +13,7 @@ const Home = React.lazy(() => import('./modules/Home'));
 const About = React.lazy(() => import('./modules/About'));
 const Gallery = React.lazy(() => import('./modules/Gallery'));
 const Resume = React.lazy(() => import('./modules/Resume'));
+const Cars = React.lazy(() => import('./modules/Cars'));
 
 function App() {
   return (
@@ -56,6 +57,9 @@ function App() {
                     </Route>
                     <Route path="/resume">
                       <Resume />
+                    </Route>
+                    <Route path="/cars">
+                      <Cars />
                     </Route>
                   </Switch>
                 </React.Suspense>

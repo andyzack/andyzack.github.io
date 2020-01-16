@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, BrowserRouter as Router2, Switch, Route, Link } from "react-router-dom";
 import logo from './assets/images/logo.png';
 
 import ErrorBoundary from "./error-boundary";
@@ -58,13 +58,21 @@ function App() {
                     <Route path="/resume">
                       <Resume />
                     </Route>
+                  </Switch>
+                </React.Suspense>
+              </ErrorBoundary>
+            </Router>
+            <Router2>
+              <ErrorBoundary fallback={"Couldn't catch modules!"}>
+                <React.Suspense fallback="loading modules...">
+                  <Switch>
                     <Route path="/cars">
                       <Cars />
                     </Route>
                   </Switch>
                 </React.Suspense>
               </ErrorBoundary>
-            </Router>
+            </Router2>
             </div>
           </div>
         </div>

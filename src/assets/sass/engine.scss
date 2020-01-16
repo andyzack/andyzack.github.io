@@ -1,0 +1,120 @@
+$orange: #f54236;			
+$blue: #61dafb; 			
+$moon-gray: #ccced1;			
+
+
+$red: #e7040f; 						
+$light-gray: #efefef;			
+$gray: #757575;						
+$moon-gray: #d8d8d8;			
+$near-black: #152935;			
+$max-width-8: 73.125rem;		
+
+
+$aq-primary: $blue;
+$aq-secondary: $orange;
+$aq-complimentary: $moon-gray;
+
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap);
+
+$open-sans: 'Open Sans', sans-serif;
+
+.open-sans 	{ font-family: $open-sans; 	}
+
+$font-size-2: 1.875rem;
+
+
+#ct-container {
+	#ct-button-search .ct-btn-p,
+	ct-vehicle-block-buttons .ct-btn.ct-xlarge,
+	ct-dynamic-button.ct-btn-p,
+	.ct-cta-block .ct-btn-p, 
+	.ct-btn.ct-palette-p-bg-color {
+		border-radius: $border-radius-3;
+		box-shadow: none;
+		font-weight: bold;
+		background-color: $aq-secondary !important;
+	}
+	.ct-btn-p.ct-age-selected {
+		background-color: $aq-secondary !important;
+		border: 1px solid $aq-secondary !important;
+	}
+	input[type="checkbox"]:checked+label.ct-checkbox-label--primary-color::before {
+	  background-color: $aq-secondary !important;
+	  border: 1px solid $aq-secondary !important;
+	}
+	.ctc-form__group--checkbox label::before {
+		border: 1px solid $dark-gray !important;
+	}
+	.ct-navigation-arrows .ct-navigation-arrows_item {
+		color: $dark-gray !important;
+		&.ct-active {
+			color: $white !important;
+		}
+	}
+}
+
+/*********************************
+ * GENERIC/RESET STYLES
+ *********************************/
+ html {
+  background: #f4f4f4 none repeat scroll 0 0;
+  [ct-app] {
+    &.ct-app-ready {
+      background: none !important;
+    }
+    &>[ng-view]>div {
+      padding: 0;
+    }
+  }
+}
+
+.az-testimonials .carousel {
+  background-image: url(../images/000-speech-bubble-1.svg);
+}
+
+.az-car1 {
+  background-image:url(https://ct-microsites-core.imgix.net/tags/locations/4513.jpg?blend=000000&amp;bm=burn&amp;balph=29&amp;auto=compress&amp;format=pjpg&amp;fit=crop&amp;max-w=500&amp;max-h=640);
+}
+.az-car2 {
+  background-image:url(https://ct-microsites-core.imgix.net/tags/locations/54028.jpg?blend=000000&amp;bm=burn&amp;balph=29&amp;auto=compress&amp;format=pjpg&amp;fit=crop&amp;max-w=500&amp;max-h=500);  
+}
+.az-car3 {
+  background-image:url(https://ct-microsites-core.imgix.net/tags/locations/55664.jpg?blend=000000&amp;bm=burn&amp;balph=29&amp;auto=compress&amp;format=pjpg&amp;fit=crop&amp;max-w=500&amp;max-h=500);  
+}
+.az-car4 {
+  background-image:url(https://ct-microsites-core.imgix.net/tags/locations/2640.jpg?blend=000000&amp;bm=burn&amp;balph=29&amp;auto=compress&amp;format=pjpg&amp;fit=crop&amp;max-w=500&amp;max-h=500);
+}
+
+.az-hero {
+  min-height: 492px;
+}
+
+.az-sale {
+  min-height: 254px;
+}
+.az-engine-s1 {
+  min-height: 162px;
+}
+
+.az-hero {
+	background-image: url(https://ct-microsites-core.imgix.net/components/hero/car-roadtrip-girls-sunset-car-coast.jpg?h=602&exp=-6&auto=format&fit=crop&w=1840&flip=h&crop=focalpoint&fp-x=.16&fp-z=1.1&fp-y=0.6);
+}
+
+.az-sale, .az-sale, .az-usp, .az-destinations, .az-supplier-offers, .az-supplier-logos, .az-testimonials {
+	display: block !important;
+}
+
+.ct-step-2, .ct-step-3, .ct-step-4, .ct-step-5 {
+	.az-hero {
+		background-image: none;
+	}
+	.az-sale, .az-sale, .az-usp, .az-destinations, .az-supplier-offers, .az-supplier-logos, .az-testimonials {
+		display: none !important;
+	}
+}
+
+
+.ct-interstitial-container{
+	margin-top: 83px !important;
+}

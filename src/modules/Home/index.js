@@ -86,14 +86,14 @@ const Home = () => (
       <div className="w-100 mw8 center ba b--dark-gray">
       <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph2 pv3"
         naturalSlideWidth={120}
-        naturalSlideHeight={40}
+        naturalSlideHeight={50}
         totalSlides={5}
         isPlaying={true}
         infinite={true}
         lockOnWindowScroll={true}
         interval={30000}
       >
-        <Slider className="f4-ns f5 white-70 tc tj-ns overflow-y-auto vh-50 h-auto-l aaz-blockquote">
+        <Slider className="f4-ns f5 white-70 tc tj-ns overflow-y-auto overflow-auto-ns vh-50 h-auto-l aaz-blockquote">
           <Slide index={0}>
           "Andrew is a passionate and dedicated individual and could work on any platform or technology. He's a quick learner and a hard worker. I've seen him grow from a Web designer to web developer - expanding his ability and knowledge and being part of an awesome team. He was part of Cartrawler and its journey to become the world’s leading B2B travel tech company, and a strong asset to the company. Andrew continues his association by providing his services and support to Cartrawler even after he moved to Australia. I wish him all the success and am proud to have known him professionally and personally all these years. He's a really great team player and all round great guy and I'm happy to recommend him."<br /><br />
           <div className="fw6 tc">Bobby Healy
@@ -127,7 +127,7 @@ const Home = () => (
           <Slide index={2}>
           "I worked in the same team with Andrew for three years. Two years at the same office and one year remotely as he moved to Australia. His work quality was not impacted after this change.<br /><br />
 
-          Andrew is a dedicated person. He's a solution-driven and self-motivated person. His approach to solving a problem is to understand the issue to present the right solution for it. When touching legacy code, he's always making sure to introduce improvements and updating documentation when applicable.<br /><br />
+          Andrew is a dedicated person. He's a solution-driven and self-motivated person. His approach to solving a problem is to understand the issue to present the right solution for it. When touching legacy code, he's always making sure to introduce improvements and updating documentation when applicable.
 
           He is an approachable and friendly person. It's excellent to have him around. He brings unique energy wherever he is." <br /><br />
           <div className="fw6 tc">Bruno De Mauro

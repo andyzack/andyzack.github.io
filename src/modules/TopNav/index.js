@@ -19,21 +19,21 @@ const TopNav = () => (
         alt="Home"
       />
     </Link>
-    <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/About">
+    <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/about">
       <img
         src={iconAbout}
         className="aaz-icon-about w2 bg-white-70 br-100 b--white ba"
         alt="About me"
       />
     </Link>
-    <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/Gallery">
+    <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/gallery">
       <img
         src={iconGallery}
         className="aaz-icon-gallery w2 bg-white-70 br-100 b--white ba"
         alt="Gallery"
       />
     </Link>
-    <Link className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow dn" to="/Resume">
+    <Link className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow dn" to="/resume">
       <img
         src={iconResume}
         className="aaz-icon-resume w2 bg-white-70 br-100 b--white ba"

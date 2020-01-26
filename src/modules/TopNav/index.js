@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import iconHome from '../../assets/images/000-home.svg';
 import iconAbout from '../../assets/images/000-user-3.svg';
@@ -10,7 +10,6 @@ import iconLinkedin from '../../assets/images/010-linkedin.svg';
 import iconWhatsapp from '../../assets/images/003-whatsapp.svg';
 
 const TopNav = () => (
-<Router>
   <nav className="cf">
     <Link className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow aaz-home dn" to="/">
       <img
@@ -76,7 +75,6 @@ const TopNav = () => (
       />
     </a>
   </nav>
-</Router>
 );
 
 export default TopNav;

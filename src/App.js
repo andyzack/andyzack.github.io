@@ -45,7 +45,10 @@ function App() {
               <ErrorBoundary fallback={"Couldn't catch modules!"}>
                 <React.Suspense fallback="loading modules...">
                   <Switch>
-                    <Route exact path="/">
+                    <Route exact={true} path="/">
+                      <Home />
+                    </Route>
+                    <Route path="/home">
                       <Home />
                     </Route>
                     <Route path="/about">

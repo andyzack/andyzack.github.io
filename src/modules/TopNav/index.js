@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import iconHome from '../../assets/images/000-home.svg';
 import iconAbout from '../../assets/images/000-user-3.svg';
@@ -11,34 +11,34 @@ import iconWhatsapp from '../../assets/images/003-whatsapp.svg';
 
 const TopNav = () => (
   <nav className="cf">
-    <Link className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow aaz-home dn" to="/">
+    <NavLink className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow aaz-home dn" to="/home">
       <img
         src={iconHome}
         className="aaz-icon-home w2 bg-black-70 br-100 b--white ba"
         alt="Home"
       />
-    </Link>
-    <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/about">
+    </NavLink>
+    <NavLink className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/about">
       <img
         src={iconAbout}
         className="aaz-icon-about w2 bg-white-70 br-100 b--white ba"
         alt="About me"
       />
-    </Link>
-    <Link className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/gallery">
+    </NavLink>
+    <NavLink className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow" to="/gallery">
       <img
         src={iconGallery}
         className="aaz-icon-gallery w2 bg-white-70 br-100 b--white ba"
         alt="Gallery"
       />
-    </Link>
-    <Link className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow dn" to="/resume">
+    </NavLink>
+    <NavLink className="f6 fw4 hover-white no-underline white-70 dib-ns ml2 pv1 pl1 grow dn" to="/resume">
       <img
         src={iconResume}
         className="aaz-icon-resume w2 bg-white-70 br-100 b--white ba"
         alt="Resume"
       />
-    </Link>
+    </NavLink>
     
     <a
       className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow"

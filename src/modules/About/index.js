@@ -124,10 +124,10 @@ const About = () => (
           </Slide>
         </Slider>
         <ButtonBack className="f2-ns f5 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--white-10 ph3-ns mt2 mt0-ns ph1 pv2-ns pv1 absolute left-0 top-0-ns top--2 bottom-0-ns">
-          <span class="dtc tc v-mid grow pa1 pa0-ns ba bw0-ns b--white-60 br-100 bg-black">&lt;</span>
+          <span className="dtc tc v-mid grow pa1 pa0-ns ba bw0-ns b--white-60 br-100 bg-black">&lt;</span>
         </ButtonBack>
         <ButtonNext className="f2-ns f5 times no-underline grow dib v-mid bg-black-10 white blue:hover ba b--white-10 ph3-ns mt2 mt0-ns ph1 pv2-ns pv1 absolute right-0 top-0-ns top--2 bottom-0-ns">
-          <span class="dtc tc v-mid grow pa1 pa0-ns ba bw0-ns b--white-60 br-100 bg-black">&gt;</span>
+          <span className="dtc tc v-mid grow pa1 pa0-ns ba bw0-ns b--white-60 br-100 bg-black">&gt;</span>
         </ButtonNext>
       </CarouselProvider>
       </div>

@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 const TITLES = [
   'A passionate front-end web developer',
   'An enthusiastic learner',
-  'A team player'
+  'Enjoy working with team',
+  'A creative designer and developer',
+  'Highly motivated and flexible individual',
+  'Love building beautiful web pages'
 ]
 
 class Title extends Component {

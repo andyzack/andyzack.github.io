@@ -8,6 +8,8 @@ import iconLinkedin from '../../assets/images/010-linkedin.svg';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
+import Title from './Title';
+
 import Particles from 'react-particles-js';
 
 const Home = () => (
@@ -81,7 +83,9 @@ const Home = () => (
           Andrew A Zacharia
         </h1>
       </div>
-      <h2 className="f4-ns f5 white pt1 pb4 ma0">A passionate front-end web developer</h2>
+      <h2 className="f4-ns f5 white pt1 pb4 ma0">
+        <Title />
+      </h2>
       
       <div className="w-100 mw8 center ba b--dark-gray">
       <CarouselProvider className="center bg-black-30 relative ph5-ns pv4-ns ph2 pv3"

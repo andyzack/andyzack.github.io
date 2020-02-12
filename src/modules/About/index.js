@@ -145,7 +145,7 @@ const About = () => (
             <div className="fl pa3 pa4-ns bg-white black-70 measure-narrow f3">
               <header className="bb b--black-20 pb3">
                 <h3 className="lh-title mt0 mb1 f2-ns f3 heading-font">Last but not least</h3>
-                <h4 className="lh-title ma0 f3-ns f4 fw4">I'm a creative front‑end developer based in Melbourne, Australia.</h4>
+                <h4 className="lh-title ma0 f3-ns f4 fw4">family time, adventure, fun...</h4>
               </header>
               <section className="lh-copy measure f4-ns f5 mt0">
                 <p>

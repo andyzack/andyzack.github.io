@@ -13,7 +13,7 @@ const Resume = () => (
   <div className="w-100 dt no-repeat bg-center cover center w-100">
     <div className="mw8 center">
       <div className="pa2 pt0 tl">
-        <div class="tr ph2">
+        <div className="tr ph2">
           <a
           className="f6 fw4 hover-white no-underline white-70 dib ml2 pv1 pl1 grow"
           href={documentPDF}

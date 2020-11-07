@@ -25,7 +25,7 @@ class Title extends Component {
 
       setTimeout(() => this.setState({ fadeIn: false }), 2000)
 
-    }, 4000)
+    }, 6000)
   }
 
   componentWillUnmount() {
